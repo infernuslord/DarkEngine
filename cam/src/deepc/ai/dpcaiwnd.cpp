@@ -1,0 +1,66 @@
+#include <dpcaiwnd.h>
+
+#include <lg.h>
+#include <mprintf.h>
+
+#include <aiactwnd.h>
+#include <aiapibhv.h>
+#include <aigoal.h>
+
+// Must be last header
+#include <dbmem.h>
+
+///////////////////////////////////////
+
+STDMETHODIMP_(const char *) cAIWander::GetName()
+{
+   return "Wandering ability";
+}
+
+///////////////////////////////////////
+
+STDMETHODIMP_(BOOL) cAIWander::Save(ITagFile * pTagFile)
+{
+   return TRUE;   
+}
+
+///////////////////////////////////////
+
+STDMETHODIMP_(BOOL) cAIWander::Load(ITagFile * pTagFile)
+{
+   return TRUE;   
+}
+
+///////////////////////////////////////
+
+STDMETHODIMP_(void) cAIWander::OnActionProgress(IAIAction * pAction)
+{
+   if (IsOwn(pAction) && !pAction->InProgress())
+   {
+      SignalAction();
+   }
+}
+
+///////////////////////////////////////
+
+STDMETHODIMP cAIWander::SuggestGoal(cAIGoal * pPrevious, cAIGoal ** ppGoal)
+{
+   *ppGoal = new cAIIdleGoal(this);
+   (*ppGoal)->priority = kAIP_VeryLow;
+
+   SignalAction();
+   return S_OK;
+}
+
+///////////////////////////////////////
+
+STDMETHODIMP cAIWander::SuggestActions(cAIGoal * pGoal, const cAIActions & previous, cAIActions * pNew)
+{
+   cAIWanderAction* pWanderAction = new cAIWanderAction(this);
+   pWanderAction->SetRange(10, 0);
+   pNew->Append(pWanderAction);
+
+   return S_OK;
+}
+
+///////////////////////////////////////////////////////////////////////////////

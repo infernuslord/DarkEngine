@@ -1,0 +1,10 @@
+#
+# $Source: r:/t2repos/thief2/src/config.mh,v $
+# $Revision: 1.4 $
+# $Author: adurant $
+# $Date: 2000/01/29 12:41:08 $
+#
+
+MASTER ?= editor
+COMP ?= v42
+SYS ?= win32

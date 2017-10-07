@@ -1,0 +1,20 @@
+#pragma once
+#ifndef __DPCLDING_H
+#define __DPCLDING_H
+
+////////////////////////////////////////////////////////////
+// DEEP COVER LOADING SCREEN API
+//
+
+EXTERN void DPCLoadingInit(); 
+EXTERN void DPCLoadingTerm(); 
+
+// Nasty little hack we have to expose, to prevent recursive level trans
+// in multiplayer:
+EXTERN BOOL gbDPCTransporting;
+
+EXTERN void SwitchToDPCInitGame(BOOL push); 
+typedef struct sLoopInstantiator sLoopInstantiator; 
+EXTERN sLoopInstantiator* DescribeDPCInitGameMode(void); 
+EXTERN BOOL DPCIsToGameModeGUID(REFGUID rguid);
+#endif // __DPCLDING_H

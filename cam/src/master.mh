@@ -1,0 +1,114 @@
+# $Header: r:/t2repos/thief2/src/master.mh,v 1.16 2000/01/29 12:41:37 adurant Exp $
+
+##########################
+#
+# ENGINE_REV
+# This env variable determines which engine revision flags are set.
+# Currently, we support 'Genesis' and 'Exodus'.  Exodus has rgb lighting 
+# and network, Genesis does not
+
+ENGINE_REV ?= Exodus
+
+#############################################################
+# STAND-ALONE GAME FLAVORS: DEV
+#
+
+%if '$(MASTER)'=='dev'
+
+EDITOR=
+PLAYTEST=PLAYTEST
+
+%endif
+
+dev_lib_flav = dbg
+dev_opt_libs = 
+dev_dbg_libs = 
+dev_dft_libs =
+
+%if '$(MASTER)'=='playtest'
+
+EDITOR=
+PLAYTEST=PLAYTEST
+
+%endif
+
+playtest_lib_flav = opt
+
+%if '$(MASTER)'=='ship'
+
+EDITOR=
+PLAYTEST=
+SHIP=SHIP
+PROFILE_CHILD=
+PROPERTY_BLAME=
+
+%endif
+
+ship_lib_flav = shp
+
+%if '$(MASTER)'=='shipprot'
+
+EDITOR=
+PLAYTEST=
+SHIP=SHIP
+PROFILE_CHILD=
+PROPERTY_BLAME=
+COPY_PROTECTION=COPY_PROTECTION
+FULL_COPY_PROTECTION=FULL_COPY_PROTECTION
+%endif
+
+shipprot_lib_flav = shp
+
+
+############################################################
+# EDITOR FLAVORS: EDITOR EDITDBG EDITPROF
+#
+
+%if '$(MASTER)'=='editor' || '$(MASTER)'=='editdbg' || '$(MASTER)'=='editprof'
+
+EDITOR=EDITOR
+PLAYTEST=PLAYTEST
+REPORT=REPORT
+SCHEMA_LOADING=SCHEMA_LOADING
+
+%endif
+
+editor_lib_flav = dbg
+editor_opt_libs = g2 dev2d fix r3d md matrix
+editor_dbg_libs =
+
+editprof_lib_flav = opt
+
+editdbg_lib_flav = dbg
+editdbg_opt_libs = 
+
+############################################################
+# 'ENGINE_REV' flavors, Exodus and Genesis
+#
+
+%if '$(ENGINE_REV)'=='Exodus' 
+
+RGB_LIGHTING=RGB_LIGHTING
+SOFTWARE_RGB=SOFTWARE_RGB
+BIG_LIGHTMAPS=BIG_LIGHTMAPS
+NEW_NETWORK_ENABLED = NEW_NETWORK_ENABLED
+
+%endif
+
+%if '$(ENGINE_REV)'=='Genesis'
+
+RGB_LIGHTING=
+SOFTWARE_RGB=
+BIG_LIGHTMAPS=
+NEW_NETWORK_ENABLED=
+
+%endif 
+
+
+shocked_lib_flav = dbg
+shocked_opt_libs = g2 dev2d fix r3d md matrix
+shocked_dbg_libs =
+
+
+
+

@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: vec2 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "link.exe -lib /nologo /out:"..\_Libs\Release\vec2.lib"  \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\vec2.obj "
+<h3>Output Window</h3>
+Creating library...
+
+
+
+<h3>Results</h3>
+vec2.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

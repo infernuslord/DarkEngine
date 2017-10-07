@@ -1,0 +1,118 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: r3d - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPBF4E.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/r3d.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\block.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\clipclip.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\clipglob.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\clipplan.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\clipproj.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\cliptest.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\clipunsc.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\ctxtguts.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\ctxtmang.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\ctxtmult.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\frame.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\object.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\prim.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\primconv.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\primd3d.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\primface.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\primfunc.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\primg2.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\primmisc.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\primnull.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\primpoly.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\space.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\view.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\xfrmclip.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\xfrmglob.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\xfrmlin.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\xfrmproj.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\r3d\xfrmunsc.c"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSPBF4E.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPBF4F.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\r3d.lib" 
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\block.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\clip.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\clipclip.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\clipglob.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\clipplan.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\clipproj.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\cliptest.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\clipunsc.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\ctxtguts.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\ctxtmang.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\ctxtmult.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\frame.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\init.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\object.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\prim.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\primconv.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\primd3d.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\primface.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\primfunc.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\primg2.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\primmisc.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\primnull.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\primpoly.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\space.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\utils.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\view.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\xfrmclip.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\xfrmglob.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\xfrmlin.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\xfrmproj.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\xfrmunsc.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSPBF4F.tmp"
+<h3>Output Window</h3>
+Compiling...
+block.c
+clipclip.c
+clipglob.c
+clipplan.c
+clipproj.c
+cliptest.c
+clipunsc.c
+ctxtguts.c
+ctxtmang.c
+ctxtmult.c
+frame.c
+C:\Sources\DarkEngine\prj\tech\libsrc\r3d\frame.c(30) : warning C4706: assignment within conditional expression
+object.c
+prim.c
+primconv.c
+primd3d.c
+primface.c
+primfunc.c
+primg2.c
+primmisc.c
+primnull.c
+primpoly.c
+space.c
+view.c
+xfrmclip.c
+xfrmglob.c
+C:\Sources\DarkEngine\prj\tech\libsrc\r3d\xfrmglob.c(36) : warning C4550: expression evaluates to a function which is missing an argument list
+xfrmlin.c
+xfrmproj.c
+xfrmunsc.c
+Creating library...
+
+
+
+<h3>Results</h3>
+r3d.lib - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

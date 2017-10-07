@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: matrix - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP6FEB.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\matrix" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/matrix.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
+"C:\Sources\DarkEngine\prj\tech\libsrc\matrix\dmat.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\matrix\matang.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\matrix\matangd.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\matrix\matmat.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\matrix\matmatd.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\matrix\matvec.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\matrix\matvecd.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\matrix\trans.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\matrix\transd.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\matrix\vec2.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\matrix\vec2d.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\matrix\vecang.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\matrix\vecangd.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\matrix\vecvec.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\matrix\vecvecd.c"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP6FEB.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP6FEC.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\matrix.lib" 
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\dmat.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\matang.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\matangd.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\matmat.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\matmatd.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\matvec.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\matvecd.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\trans.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\transd.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\vec2.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\vec2d.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\vecang.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\vecangd.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\vecvec.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\vecvecd.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP6FEC.tmp"
+<h3>Output Window</h3>
+Compiling...
+dmat.c
+matang.c
+matangd.c
+matmat.c
+matmatd.c
+matvec.c
+matvecd.c
+trans.c
+transd.c
+vec2.c
+vec2d.c
+vecang.c
+vecangd.c
+vecvec.c
+vecvecd.c
+Creating library...
+
+
+
+<h3>Results</h3>
+matrix.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

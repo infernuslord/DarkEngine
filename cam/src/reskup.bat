@@ -1,0 +1,1 @@
+skup reskup

@@ -1,0 +1,195 @@
+Shorthand notation:
+I&T = Contains Initialize & Terminate routines.
+ 
+// ActReact: ActReact changes & enhancements.
+dpcdrprp        = Door Properties.
+dpcmprop        = Mission Properties.
+dpcprop         = Object names and properties.
+dpcprutl        = Property utilities.
+dpcreact        = Deep Cover specific ActReact enhancements.
+dpcwsprp        = Setting text properties
+                
+// AI:       AI changes & enhancements.
+dpcai           = I&T AI.
+dpcaiabs        = Actor behavior set.
+dpcaicbr        = AI Ranged combat
+dpcaicbs        = Camera behavior set.
+dpcaicmd        = AI Camera death.
+dpcaicrb        = AI Combat - ranged backup
+dpcaidmr        = Door move regular routines.
+dpcaidth        = AI quick death.
+dpcaigna        = AI Action - gun attack
+dpcaigra        = Grub combat abilities.
+dpcaimbs        = AI Melee behavior set.
+dpcaimuc        = AI Multi Combat .
+dpcaipbs        = AI Proxy behavior set.
+dpcaipr         = AI Properties
+dpcaipro        = Protocol Droid I&T
+dpcaipth        = AI Pathfinding.
+dpcairbs        = AI Ranged Melee Behavior Set
+dpcaircp        = Ranged-combat-related properties and relations
+dpcaireb        = AI Ranged Explode Behavior Set
+dpcairnb        = AI Ranged Behavior Set
+dpcaisbs        = Basic AI Behavior Set
+dpcaitbs        = Turret Behavior Set
+dpcaiutl        = AI Utilities
+dpcstnrc        = Stun AI reaction
+                
+// Editor:   Editor feature extenstions.
+dpcedit         = Specific Editor enhancements.
+
+// EngFeat:  Engine Feature extensions.
+dpcfrob         = Frob properties I&T.
+dpcfsys         = Frob system enhancements.
+                
+// Game:     Game-specific code
+dpcalarm        = Alarm UI + I&T.
+dpcblood        = Blood effects I&T.
+dpccheck        = Sphere checks.
+dpcchkcd        = Copy protection stuff.
+dpccntxt        = Deep Cover specific contexts.
+dpccross        = Crosshair UI.
+dpcdiff         = Difficulty table.
+dpcdmprp        = Death model name property
+dpcelev         = Elevator UI + I&T.
+dpcemail        = Email UI + I&T.
+dpcgame         = Mouse & key handling, high-level game I&T.
+dpcguids        = Expand all game guids.
+dpchazpr        = Hazard property data.
+dpchazrd        = Radiation meter (code reference for light meter).
+dpchcomp        = General Hackable Computer I&T.
+dpchplug        = Hardware plugs used in hacking.
+dpchrm          = Hardware boards used in hacking.
+dpcinit         = Game API I&T.
+dpckeypd        = Keypad.
+dpcloop         = Deep Cover Game Mode clients.
+dpcloot         = Corpse treasure creation and selection.
+dpcmain         = Master Control loopmode.
+dpcmap          = In-game progress map.
+dpcmlook        = (Legacy code)
+dpcmniid        = Loop GUIDS.
+dpcpatch        = (code reference for patching Shock).
+dpcpfiid        = GUIDS for property interfaces
+dpcpick         = Distant object picking.
+dpcplpup        = Player "puppets" for playing motions on.
+dpcreprt        = Deep Cover debugging functions.
+dpcscomp        = Security Computer I&T.
+dpcsecur        = Security Computer UI.
+dpcsloop        = Simulation loop client.
+dpcspawn        = Ecology (monster generation) constants.
+dpctable        = Game table for Deep Cover.
+dpctluct        = Translucent "floating" text
+dpcver          = Version Indicator.
+dpcwsett        = Weapon setting UI + I&T.
+                
+// Input:    Input handling and dispatching.
+dpc_bind        = Keyboard binding parsing.
+dpcctrl         = Keyboard action dispatching.
+dpckey          = Special non-inventory keys for getting to a particular location.
+dpcqbind        = General bind constants.
+                
+// Motion:   Motion capture and locomotion.
+dpccret         = Basic creature motion I&T.
+dpccrdog        = Dog creature.
+dpccrdrd        = Droid creature.
+dpccrhum        = Human creature.
+                
+// MP:       Multiplayer support.
+dpcnet          = Multiplayer enhancements.
+dpcnetid        = Multiplayer GUID.
+
+// Object:   General object manipulation
+dpcarmpr        = Armor properties.
+dpcdmg          = Damage and spang properties.
+dpclinks        = Deep Cover-specific links.
+dpcobjst        = Possible Object states.
+dpctrcst        = Bonus traits (legacy code?)
+    
+// Player:   Player-specific code.
+dpcinv          = Inventory system stuff   
+dpcinvpr        = Inventory properties.
+dpclooko        = Look at mode for inventory.
+dpcmelab        = Player melee skills & abilities.
+dpcmelee        = Player melee combat.
+dpcmel_         = Player melee ability descriptions.
+dpcparam        = Player property and parameter tables for skils & abilities.
+dpcplayr        = Deep Cover player.
+dpcpldmg        = Player damage & armor manipulation.
+dpcpliid        = Player GUID.
+dpcplprp        = Player properties.
+dpcstcst        = Stat constants.
+                
+// Render:   Rendering enhancements
+dpcrend         = Deep Cover rendering code.
+dpcanmsp        = Animated Sprite Management
+dpccam          = Camera I&T.
+dpccmobj        = Camera Objects.
+dpccobpr        = Camera Object properties.
+dpcrloop        = Rendering loop.
+dpccs           = Cutscene rendering and playback.
+dpcvhot         = Tweaks for lighting properties for model's joints.
+dpcutils        = Font, PCX, and other general drawing utilities.
+dpcrndov        = Overlay rendering.
+dpccmiid        = Camera GUID.
+dpccmapi        = Deep Cover camera API.
+                
+// Scripts:  Scripting language features and extensions.
+dpcaisc         = Deep Cover AI scripts.
+dpchome         = Homing projectile scripts.
+dpcscapi        = Script API
+dpcscrm         = Yes or No messages.
+dpcscrpt        = Deep Cover script stuff.
+dpctrip         = Tripwire flag definitions.
+dpcwepsc        = Deep Cover Weapon scripts.
+                
+// Sound:
+dpcsndpr        = Sound properties.
+dpcsound        = Deep Cover sound enhancments.
+
+// UI:       UI of fun and goodness.
+dpcbooko        = Book UI.
+dpcchat         = Multiplayer chat UI.
+dpccont         = Containers.
+dpccurm         = Current UI mode.
+dpcdlg          = General dialog code.
+dpchud          = HUD overlay elements
+dpcincst        = Inventory and container constants used all over the place.
+dpciface        = In-game interface code.
+dpcifstr        = Interface strings.
+dpciftul        = In-game nav button I&T.
+dpclbox         = Letterbox I&T.
+dpclding        = Deep Cover Loading panel.
+dpcmenu         = Metagame menus.
+dpcmeter        = Meters (hazard, light, etc).
+dpcmfddm        = MFD Dimensions table.
+dpcmulti        = Multilevel support - catch all file.
+dpcnetui        = Multiplayer UI.
+dpcoptmn        = Options menu.
+dpcovcst        = Overlay table constants
+dpcovrly        = Overlay tables.
+dpccurpr        = Cursor properties & filenames.
+dpcpdcst        = PDA constants.
+dpcpda          = PDA UI.
+dpcsavui        = Load/Save UI panels.
+dpcsvbnd        = Load/Save key bindings panels.
+dpcuitul        = General UI utilities.
+dpcyorn         = Yes or no dialog box.
+                
+// Weapon:   Weapons features and enhancements.
+dpcammov        = Ammo indicator.      
+dpcflash        = Gun flashes.         
+dpcganpr        = Base gun description
+dpcgnapi        = Basic gun API.
+dpcgnbas        = Base gun structures.
+dpcgun          = Gun projectile linkage.
+dpcgunan        = Animation tools for gun joints.
+dpcgunmd        = Player gun model.
+dpcgunpr        = Base gun properties.
+dpcmelpr        = Melee type property.
+dpcpgapi        = Player gun API.
+dpcpjbas        = Projectile base structure.
+dpcplcst        = Skills, weapon and player types
+dpcplgun        = Player gun animation.
+dpcprjpr        = Projectile properties.
+dpcproj         = Projectile I&T.
+

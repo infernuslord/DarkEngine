@@ -1,0 +1,224 @@
+; $Header: r:/t2repos/thief2/src/deepc.bnd,v 1.6 2000/01/10 19:33:12 porges Exp $
+
+; debugging stuff
+bind b+alt report_bug
+bind : edit_command
+
+; game stuff
+bind ctrl +query
+bind alt +split
+bind r reload_gun
+bind b cycle_ammo
+bind ; cycle ammo
+bind f cycle_ammo
+bind o wpn_setting_toggle
+;bind p select_psipower
+bind ' chat
+bind m "open_mfd 26"
+bind i toggle_mouse
+bind tab toggle_mouse
+bind esc sim_menu
+bind backspace stop_email
+bind del stop_email
+bind n "summon_obj Nav Marker"
+
+bind l msg_history
+bind u play_unread_log
+
+bind c+alt toggle_compass
+
+bind s+alt quicksave
+bind l+alt quickload
+
+bind h+alt mp_hilight_obj
+
+bind t+alt clear_teleport
+
+bind y "cycle_weapon 1"
+bind y+shift "cycle_weapon -1"
+
+bind ` "equip_weapon psi amp"
+
+bind 1 "equip_weapon knife"
+bind 2 "equip_weapon pistol"
+bind 3 "equip_weapon sniper rifle"
+bind 4 "equip_weapon aka47"
+
+bind 5 "equip_weapon laser pistol"
+bind 6 "equip_weapon EMP Rifle"
+bind 7 "equip_weapon Electro Shock"
+
+bind 8 "equip_weapon Gren Launcher"
+bind 9 "equip_weapon Stasis Field Generator"
+bind 0 "equip_weapon Fusion Cannon"
+
+bind - "equip_weapon Crystal Shard"
+bind = "equip_weapon Viral Prolif"
+bind \ "equip_weapon Worm Launcher"
+
+bind ~ "clear_weapon"
+
+bind u+shift "unjam_weapon"
+
+bind p "use_obj Rad Patch"
+bind h "use_obj med patch"
+bind h+shift "use_obj Medical Kit"
+bind o+shift "use_obj Detox Patch"
+bind h+ctrl "use_obj Psi Booster"
+
+bind F1 "quickuse 1"
+bind F2 "quickuse 2"
+bind F3 "quickuse 3"
+bind F4 "quickuse 4"
+bind F5 "quickuse 5"
+bind F6 "quickuse 6"
+bind F7 "quickuse 7"
+bind F8 "quickuse 8"
+bind F9 "quickuse 9"
+bind F10 "quickuse 10"
+bind F11 "quickuse 11"
+bind F12 "quickuse 12"
+
+bind F1+shift "quickbind 1"
+bind F2+shift "quickbind 2"
+bind F3+shift "quickbind 3"
+bind F4+shift "quickbind 4"
+bind F5+shift "quickbind 5"
+bind F6+shift "quickbind 6"
+bind F7+shift "quickbind 7"
+bind F8+shift "quickbind 8"
+bind F9+shift "quickbind 9"
+bind F10+shift "quickbind 10"
+bind F11+shift "quickbind 11"
+bind F12+shift "quickbind 12"
+
+;bind F1 "psi_power 1"
+;bind F2 "psi_power 2"
+;bind F3 "psi_power 3"
+;bind F4 "psi_power 4"
+;bind F5 "psi_power 5"
+
+;;;;;;;;;;;;;;;;;;;;
+; player movement
+;;;;;;;;;;;;;;;;;;;;
+bind shift +creepon
+
+bind w +walkfast
+bind keypad_up +walkfast
+bind up +walkfast
+
+bind x +backfast
+bind keypad_down +backfast
+bind down +backfast
+
+bind z +moveleftfast
+bind keypad_end +moveleftfast
+
+bind c +moverightfast
+bind keypad_pgdn +moverightfast
+
+bind a +turnleftfast
+bind keypad_left +turnleftfast
+bind left +turnleftfast
+
+bind d +turnrightfast
+bind keypad_right +turnrightfast
+bind right +turnrightfast
+
+bind t +lookup
+bind pgup +lookup
+
+bind g +lookdown
+bind pgdn +lookdown
+
+bind v lookcenter
+
+bind q +leanleft
+bind keypad_home +leanleft
+
+bind e +leanright
+bind keypad_pgup +leanright
+
+bind s crouch
+bind keypad_center crouch
+
+
+;bind s +crouchhold
+
+bind w+alt+shift +leanforward
+
+bind space +jump
+
+; Mouse functionality
+
+; standard interface
+; left button is frob or go-to-frob
+; right button is fire or go-to-fire
+
+game bind mouse2 frob_object
+game2 bind mouse2 frob_object_inv
+game bind mouse1 +fire_weapon
+game2 bind mouse1 +drag_and_drop_mode
+;game2 bind mousedouble1 interface_use
+
+;game bind mouse2 frob_object
+;game2 bind mouse2 frob_object
+;game bind mouse1 +fire_weapon
+;game2 bind mouse1 +drag_and_drop_mode
+
+;use this line instead to have no effect when non-interfacing
+;game2 bind mouse1 +drag_and_drop
+
+; previous interface
+;game bind mouse1 frob_toggle
+;game bind mouse2 +fire_weapon
+;game2 bind mouse1 +drag_and_drop
+;game2 bind mouse2 toggle_mouse
+
+;game2 bind mouse1 interface_click
+;game2 bind mousesingle1 interface_click
+;game2 bind mousesingle2 toggle_mouse
+
+; variants -- eventually these will be separate loadable .bnd files
+
+; right button always changes mode
+; left button always does the current "thing"
+;game bind mouse1 +fire_weapon
+;game bind mousesingle2 frob_maybe_toggle
+;game2 bind mousesingle1 interface_click
+;game2 bind mousesingle1 interface_use
+;game2 bind mousesingle2 toggle_mouse
+
+; left button frobs, right button fires, spacebar changes mode
+;game bind mousesingle1 frob_maybe_toggle
+;game2 bind mousesingle1 interface_click
+;game2 mousedouble1 interface_use
+;bind mouse2 +fire_weapon
+;bind space toggle_mouse
+;bind j jump
+
+game bind mouse_axisx mturn
+game bind mouse_axisy mlook
+
+; bind mouse3 +freelookon
+bind mouse3 toggle_mouse
+
+mouse_invert 0
+lookspring 0
+freelook 1
+mouse_sensitivity 5.0
+
+;all bind F1 help                ; print all commands
+
+;edit bind F2 cycle_mode         ; cycle through rendering modes for cur camera
+;edit bind F3 toggle_3d          ; current camera is 2d/3d
+
+bind F9+ctrl screen_dump
+
+bind q+shift "+fly  1"
+bind e+shift "+fly -1"
+bind p+shift "unfly"
+
+bind joy_axisx +joyxaxis
+bind joy_axisy +joyforward
+

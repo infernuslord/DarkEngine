@@ -1,0 +1,14 @@
+///////////////////////////////////////////////////////////////////////////////
+// $Header: r:/t2repos/thief2/src/dark/darkai.h,v 1.3 2000/01/31 09:39:50 adurant Exp $
+//
+#pragma once
+
+#ifndef __DARKAI_H
+#define __DARKAI_H
+
+EXTERN void DarkAICreateAppServices();
+
+EXTERN void DarkAIInit();
+EXTERN void DarkAITerm();
+
+#endif /* !__DARKAI_H */

@@ -1,0 +1,276 @@
+IDBASE  1200
+IDLIMIT 1250
+
+// Skeleton structures for PBAs
+// seg sequence for cylindrical and poly is
+// right foot
+// right shin
+// right thigh
+// right arm
+// right forearm
+// right hand
+// body
+// head
+// left foot
+// left shin
+// left thigh
+// left arm
+// left forearm
+// left hand
+
+// Make 6 be forearm when non symmetrical parts
+
+// orientation vectors 
+// body,head            DIFF   RSHLDR LSHLDR
+// right leg            CROSS  RHIP RKNEE RKNEE RHEEL
+// right arm,hand       CROSS  RELBOW RWRIST RSHLDR RELBOW
+// left leg             CROSS  LHIP LKNEE LKNEE LHEEL
+// left arm,hand        CROSS  LELBOW LWRIST LSHLDR LELBOW
+
+LINE = 0
+CYL  = 1
+BMAP = 2
+POLY = 3
+
+MIRROR = 1
+EXPOSE1 = 2
+EXPOSE2 = 4
+DONTRENDER = 16
+
+LTOE = 0
+RTOE = 1
+LANKLE = 2
+RANKLE = 3
+LKNEE = 4
+RKNEE = 5
+LHIP  = 6
+RHIP  = 7
+BUTT  = 8
+NECK  = 9
+LSHLDR = 10
+RSHLDR = 11
+LELBOW = 12
+RELBOW = 13
+LWRIST = 14
+RWRIST = 15
+LFINGER = 16
+RFINGER = 17
+ABDOMEN = 18
+HEAD = 19
+
+//	-------------------------------------------------------------
+//		SKELETON MODELS
+//	-------------------------------------------------------------
+
+// not quite symmetric - hands are not
+RES skm_BIP_SYM BIN INLINE NONCOMPOUND
+   BYTE $BMAP \
+   BYTE 15 \
+   BYTE 20 \
+   BYTE 5 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   /* SEGMENTS */ \
+   BYTE $LANKLE BYTE $LTOE \
+   BYTE 3 \
+   BYTE $MIRROR + $EXPOSE1 + $EXPOSE2 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $RANKLE BYTE $RTOE \
+   BYTE 1 \
+   BYTE $EXPOSE1 + $EXPOSE2 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $LKNEE BYTE $LANKLE \
+   BYTE 3 \
+   BYTE $MIRROR \
+   LONG 1 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $RKNEE BYTE $RANKLE \
+   BYTE 1 \
+   BYTE 0 \
+   LONG 1 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $LHIP BYTE $LKNEE \
+   BYTE 3 \
+   BYTE $MIRROR \
+   LONG 2 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $RHIP BYTE $RKNEE \
+   BYTE 1 \
+   BYTE 0 \
+   LONG 2 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $ABDOMEN BYTE $BUTT \
+   BYTE 0 \
+   BYTE $EXPOSE2 \
+   LONG 5 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $NECK BYTE $ABDOMEN \
+   BYTE 0 \
+   BYTE $EXPOSE1 \
+   LONG 6 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $HEAD BYTE $NECK \
+   BYTE 0
+   BYTE $EXPOSE1 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $LSHLDR BYTE $LELBOW \
+   BYTE 4 \
+   BYTE $MIRROR \
+   LONG 3 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $RSHLDR BYTE $RELBOW \
+   BYTE 2 \
+   BYTE 0 \
+   LONG 3 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $LELBOW BYTE $LWRIST \
+   BYTE 4 \
+   BYTE $MIRROR + $EXPOSE2 \
+   LONG 4 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $RELBOW BYTE $RWRIST \
+   BYTE 2 \
+   BYTE $EXPOSE2 \
+   LONG 4 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $LWRIST BYTE $LFINGER \
+   BYTE 4 \
+   BYTE $MIRROR + $EXPOSE2
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $RWRIST BYTE $RFINGER \
+   BYTE 2 \
+   BYTE $EXPOSE2
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+END
+
+
+RES skm_BIP_ASYM BIN INLINE NONCOMPOUND
+   BYTE $BMAP \
+   BYTE 11 \
+   BYTE 16 \
+   BYTE 5 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   /* SEGMENTS */ \
+   BYTE $RANKLE BYTE $RTOE \
+   BYTE 1 \
+   BYTE $EXPOSE1 + $EXPOSE2 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $RKNEE BYTE $RANKLE \
+   BYTE 1 \
+   BYTE 0 \
+   LONG 1 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $RHIP BYTE $RKNEE \
+   BYTE 1 \
+   BYTE 0 \
+   LONG 2 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $RSHLDR BYTE $RELBOW \
+   BYTE 2 \
+   BYTE 0 \
+   LONG 3 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $RELBOW BYTE $RWRIST \
+   BYTE 2 \
+   BYTE $EXPOSE2 \
+   LONG 4 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $NECK BYTE $BUTT \
+   BYTE 0 \
+   BYTE $EXPOSE1 + $EXPOSE2 \
+   LONG 5 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $LANKLE BYTE $LTOE \
+   BYTE 3 \
+   BYTE $MIRROR + $EXPOSE1 + $EXPOSE2 \
+   LONG 0 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $LKNEE BYTE $LANKLE \
+   BYTE 3 \
+   BYTE $MIRROR \
+   LONG 1 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $LHIP BYTE $LKNEE \
+   BYTE 3 \
+   BYTE $MIRROR \
+   LONG 2 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $LSHLDR BYTE $LELBOW \
+   BYTE 4 \
+   BYTE $MIRROR \
+   LONG 3 \
+   LONG 0 \
+   LONG 0 \
+   BYTE $LELBOW BYTE $LWRIST \
+   BYTE 4 \
+   BYTE $EXPOSE2 \
+   LONG 6 
+   LONG 0 \
+   LONG 0 \
+END
+

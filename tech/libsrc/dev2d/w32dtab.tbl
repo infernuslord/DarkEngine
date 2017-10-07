@@ -1,0 +1,10 @@
+table_name win32_device_table
+table_indexes GDC
+include grnull.h
+include idevice.h
+include dtabfcn.h
+begin_entries
+GDC_SET_MODE            win32_set_mode
+GDC_SET_PAL             win32_set_pal
+GDC_GET_PAL             win32_get_pal
+end_entries

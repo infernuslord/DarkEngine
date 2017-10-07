@@ -1,0 +1,717 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: g2 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP867F.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/g2.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\area.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\cc816.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\chkply.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\clip.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\clplin.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\co88.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\dlh816.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\drytmap.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8ll.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16lm.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16pm.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16s.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8fl8l.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8fl8ll.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8fl8s.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8l.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8lm.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8lo2wc.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8nnic.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8o2wic.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8pm.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8s.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8sply.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2circ.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2d.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2el.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2makewr.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2ov.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2poly.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2ring.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2rot.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\gen16il.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\gen8il.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\genf16l.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\genf16s.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\genfl8l.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\genfl8s.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\genline.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlm.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\genply.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\genrast.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\genrsds.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\genrsdtm.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\gens.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\gensil.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\gensply.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\golftmap.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\grtm.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\grwater.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\lh816.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\lht816.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\lo816.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\lo88.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\o88.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\permap.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\plyshell.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\point.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\pt_duv.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\pt_grad.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\pt_main.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\pt_map.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\r88.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\rastel.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\raster.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\scshell.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\setdrv.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\shadhack.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\shadtmap.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\t816oc.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\t88oc.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\tf.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\tmapd.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\tmsetup.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\trifan.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\trigrad.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\trirast.c"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP867F.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP8680.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\g2.lib" 
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\area.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\blend.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\cc816.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\chkply.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\clip.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\clplin.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\co88.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\cominit.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\dlh816.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\drytmap.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\f16fl8ll.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\f16fl8s.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\f16lm.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\f16pm.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\f16s.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\fl8fl8l.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\fl8fl8ll.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\fl8fl8s.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\fl8il.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\fl8l.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\fl8lin.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\fl8lm.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\fl8lo2wc.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\fl8nnic.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\fl8o2wic.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\fl8pm.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\fl8s.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\fl8sply.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\g2circ.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\g2d.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\g2el.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\g2makewr.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\g2ov.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\g2poly.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\g2ring.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\g2rot.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\g2tm.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\gen16il.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\gen8il.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\genf16l.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\genf16s.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\genfl8l.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\genfl8s.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\genil.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\genlil.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\genline.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\genlm.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\genply.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\genrast.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\genrsds.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\genrsdtm.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\gens.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\gensil.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\gensply.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\golftmap.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\grtm.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\grwater.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\init.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\lh816.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\lht816.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\lmap.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\lo816.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\lo88.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\o88.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\permap.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\plyshell.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\point.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\pt_duv.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\pt_grad.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\pt_main.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\pt_map.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\r88.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\rastel.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\raster.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\scshell.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\setdrv.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\shadhack.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\shadtmap.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\svgainit.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\t816oc.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\t88oc.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\tf.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\tmapd.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\tmsetup.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\trifan.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\trigrad.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\trirast.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP8680.tmp"
+<h3>Output Window</h3>
+Compiling...
+area.c
+cc816.c
+chkply.c
+clip.c
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\clip.c(8) : warning C4005: 'CLIP_MASK' : macro redefinition
+        C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\wingdi.h(1180) : see previous definition of 'CLIP_MASK'
+clplin.c
+co88.c
+dlh816.c
+drytmap.c
+f16fl8ll.c
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8ll.c(31) : error C2039: 'p_dest' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8ll.c(32) : error C2039: 'p_dest' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8ll.c(32) : error C2039: 'drow' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8ll.c(38) : error C2039: 'i' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8ll.c(39) : error C2039: 'dix' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8ll.c(64) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8ll.c(65) : error C2039: 'drow' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8ll.c(78) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+f16fl8s.c
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(23) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(24) : error C2039: 'drow' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(25) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(34) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(35) : error C2039: 'drow' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(36) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(46) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(47) : error C2039: 'drow' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(48) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(57) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(58) : error C2039: 'drow' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(59) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(70) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(71) : error C2039: 'drow' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(73) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(82) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(83) : error C2039: 'drow' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(85) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(96) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(97) : error C2039: 'drow' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(99) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(108) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(109) : error C2039: 'drow' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(111) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(120) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(121) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(121) : error C2065: 'flat16_flat8_tluc_trans_il' : undeclared identifier
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(130) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8s.c(131) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+f16lm.c
+f16pm.c
+f16s.c
+fl8fl8l.c
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8fl8l.c(28) : error C2039: 'p_src' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8fl8l.c(29) : error C2039: 'mask' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8fl8l.c(30) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8fl8l.c(48) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8fl8l.c(49) : error C2039: 'drow' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8fl8l.c(53) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+fl8fl8ll.c
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8fl8ll.c(42) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8fl8ll.c(43) : error C2039: 'drow' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8fl8ll.c(57) : error C2039: 'ltab' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8fl8ll.c(59) : error C2039: 'ltab' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8fl8ll.c(60) : error C2039: 'ltab' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8fl8ll.c(64) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8fl8ll.c(66) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+fl8fl8s.c
+fl8il.c
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(24) : error C2039: 'p_dest' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(25) : error C2039: 'p_dest' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(26) : error C2039: 'p_dest' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(30) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(31) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(32) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(33) : error C2039: 'dux' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(34) : error C2039: 'dvx' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(60) : error C2039: 'p_dest' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(61) : error C2039: 'p_dest' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(62) : error C2039: 'p_dest' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(67) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(68) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(69) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(70) : error C2039: 'dux' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(71) : error C2039: 'dvx' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(96) : error C2039: 'p_dest' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(97) : error C2039: 'p_dest' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(98) : error C2039: 'p_dest' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(102) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(103) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(104) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(105) : error C2039: 'dux' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(106) : error C2039: 'dvx' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+fl8l.c
+fl8lm.c
+fl8lo2wc.c
+fl8nnic.c
+fl8o2wic.c
+fl8pm.c
+fl8s.c
+fl8sply.c
+g2circ.c
+g2d.c
+g2el.c
+g2makewr.c
+g2ov.c
+g2poly.c
+g2ring.c
+g2rot.c
+g2tm.c
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(15) : error C2143: syntax error : missing ')' before '*'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(15) : error C2081: 'g2ut_func' : name in formal parameter list illegal
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(15) : error C2143: syntax error : missing '{' before '*'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(15) : error C2059: syntax error : ')'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(16) : error C2054: expected '(' to follow 'f'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(31) : error C2143: syntax error : missing '{' before '*'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(40) : error C2063: 'lmap_func' : not a function
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(87) : error C2063: 'lmap_func' : not a function
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(104) : warning C4013: 'do_map' undefined; assuming extern returning int
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(113) : warning C4013: 'gr_lin_umap_expose' undefined; assuming extern returning int
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(113) : warning C4047: '=' : 'int *' differs in levels of indirection from 'int '
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(118) : error C2143: syntax error : missing '{' before '*'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(120) : warning C4550: expression evaluates to a function which is missing an argument list
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(120) : warning C4047: 'return' : 'int *' differs in levels of indirection from 'void (__cdecl *)(struct grs_bitmap *,int ,struct grs_vertex ** )'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(126) : warning C4013: 'gr_lit_lin_umap_expose' undefined; assuming extern returning int
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(126) : warning C4047: '=' : 'int *' differs in levels of indirection from 'int '
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(131) : error C2143: syntax error : missing '{' before '*'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(133) : warning C4550: expression evaluates to a function which is missing an argument list
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(133) : warning C4047: 'return' : 'int *' differs in levels of indirection from 'void (__cdecl *)(struct grs_bitmap *,int ,struct grs_vertex ** )'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(154) : warning C4013: 'gr_per_umap_expose' undefined; assuming extern returning int
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\g2tm.c(160) : warning C4013: 'gr_lit_per_umap_expose' undefined; assuming extern returning int
+gen16il.c
+gen8il.c
+genf16l.c
+genf16s.c
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genf16s.c(13) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genf16s.c(14) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genf16s.c(15) : error C2039: 'pix_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genf16s.c(16) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genf16s.c(25) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genf16s.c(26) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genf16s.c(27) : error C2039: 'pix_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genf16s.c(29) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genf16s.c(31) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+genfl8l.c
+genfl8s.c
+genil.c
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(23) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(27) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(28) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(29) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(30) : error C2039: 'dux' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(31) : error C2039: 'dvx' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(32) : error C2039: 'pix_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(34) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(73) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(74) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(79) : error C2039: 'dux' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(80) : error C2039: 'dvx' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(81) : error C2039: 'pix_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(83) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(114) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(118) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(119) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(120) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(121) : error C2039: 'dux' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(122) : error C2039: 'dvx' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(123) : error C2039: 'pix_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(125) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(164) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(165) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(170) : error C2039: 'dux' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(171) : error C2039: 'dvx' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(172) : error C2039: 'pix_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genil.c(174) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+genlil.c
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(25) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(29) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(30) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(31) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(32) : error C2039: 'dux' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(33) : error C2039: 'dvx' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(34) : error C2039: 'dix' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(35) : error C2039: 'i' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(38) : error C2039: 'pix_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(39) : error C2039: 'lpix_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(41) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(83) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(87) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(88) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(94) : error C2039: 'dux' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(95) : error C2039: 'dvx' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(96) : error C2039: 'dix' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(97) : error C2039: 'i' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(98) : error C2039: 'pix_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(99) : error C2039: 'lpix_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(103) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(139) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(143) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(144) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(145) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(146) : error C2039: 'dux' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(147) : error C2039: 'dvx' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(148) : error C2039: 'dix' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(149) : error C2039: 'i' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(150) : error C2039: 'pix_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(151) : error C2039: 'lpix_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(155) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(197) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(201) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(202) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(208) : error C2039: 'dux' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(209) : error C2039: 'dvx' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(210) : error C2039: 'dix' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(211) : error C2039: 'i' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(212) : error C2039: 'pix_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(213) : error C2039: 'lpix_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genlil.c(217) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+genline.c
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\genline.c(116) : warning C4550: expression evaluates to a function which is missing an argument list
+genlm.c
+genply.c
+genrast.c
+genrsds.c
+genrsdtm.c
+gens.c
+gensil.c
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\gensil.c(21) : error C2039: 'dix' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\gensil.c(22) : error C2039: 'color' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\gensil.c(23) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\gensil.c(24) : error C2039: 'pix_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\gensil.c(25) : error C2039: 'lpix_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+gensply.c
+golftmap.c
+grtm.c
+grwater.c
+lh816.c
+lht816.c
+lmap.c
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(34) : error C2039: 'dux' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(34) : error C2198: 'fast_fix_mul' : too few actual parameters
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(35) : error C2039: 'duy' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(35) : error C2198: 'fast_fix_mul' : too few actual parameters
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(36) : error C2039: 'dvx' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(36) : error C2198: 'fast_fix_mul' : too few actual parameters
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(37) : error C2039: 'dvy' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(37) : error C2198: 'fast_fix_mul' : too few actual parameters
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(38) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(40) : error C2039: 'p_dest' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(40) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(42) : error C2039: 'duy' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(42) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(43) : error C2039: 'dvy' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(43) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(45) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(47) : error C2039: 'dux' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(48) : error C2039: 'dvx' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(49) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(50) : error C2039: 'duy' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(51) : error C2039: 'dvy' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(52) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(73) : error C2039: 'dux' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(73) : error C2198: 'fast_fix_mul' : too few actual parameters
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(74) : error C2039: 'duy' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(74) : error C2198: 'fast_fix_mul' : too few actual parameters
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(75) : error C2039: 'dvx' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(75) : error C2198: 'fast_fix_mul' : too few actual parameters
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(76) : error C2039: 'dvy' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(76) : error C2198: 'fast_fix_mul' : too few actual parameters
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(77) : error C2039: 'dix' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(77) : error C2198: 'fast_fix_mul' : too few actual parameters
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(78) : error C2039: 'diy' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(78) : error C2198: 'fast_fix_mul' : too few actual parameters
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(79) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(81) : error C2039: 'p_dest' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(81) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(83) : error C2039: 'duy' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(83) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(84) : error C2039: 'dvy' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(84) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(85) : error C2039: 'diy' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(85) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(87) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(89) : error C2039: 'dux' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(90) : error C2039: 'dvx' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(91) : error C2039: 'i' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(91) : error C2039: 'dix' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(92) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(93) : error C2039: 'duy' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(94) : error C2039: 'dvy' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(95) : error C2039: 'diy' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c(96) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+lo816.c
+lo88.c
+o88.c
+permap.c
+plyshell.c
+C:\Sources\DarkEngine\prj\tech\libsrc\g2\plyshell.c(21) : error C2039: 'il' : is not a member of 'g2s_poly_params'
+        .\plyparam.h(38) : see declaration of 'g2s_poly_params'
+point.c
+pt_duv.c
+pt_grad.c
+pt_main.c
+pt_map.c
+r88.c
+rastel.c
+raster.c
+scshell.c
+setdrv.c
+shadhack.c
+shadtmap.c
+t816oc.c
+t88oc.c
+tf.c
+tmapd.c
+tmsetup.c
+trifan.c
+trigrad.c
+trirast.c
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+g2.lib - 222 error(s), 13 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,10 @@
+table_name gdd_default_dispdev_canvas_table
+table_indexes GDC
+include icanvas.h
+include grnull.h
+include general.h
+include ddevblt.h
+begin_entries
+GDC_UBITMAP             dispdev_ubitmap
+GDC_UBITMAP_EXPOSE      dispdev_ubitmap_expose
+end_entries

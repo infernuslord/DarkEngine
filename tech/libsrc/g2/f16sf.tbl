@@ -1,0 +1,38 @@
+table_name flat16_scale_func
+table_indexes BMF FILL BMT
+include dev2d.h
+include gensf.h
+include f16sf.h
+include swarn.h
+begin_entries
+BMT_FLAT8 FILL_NORM  BMF_TRANS  gen_flat8_scale
+BMT_FLAT8 FILL_NORM  BMF_OPAQUE gen_flat8_scale
+BMT_FLAT8 FILL_CLUT  BMF_TRANS  gen_flat8_scale
+BMT_FLAT8 FILL_CLUT  BMF_OPAQUE gen_flat8_scale
+BMT_FLAT8 FILL_SOLID BMF_TRANS  gen_flat8_scale
+BMT_FLAT8 FILL_SOLID BMF_OPAQUE gen_flat8_scale
+BMT_FLAT8 FILL_BLEND BMF_TRANS  gen_flat8_scale
+BMT_FLAT8 FILL_BLEND BMF_OPAQUE gen_flat8_scale
+BMT_FLAT8 FILL_XOR   BMF_TRANS  gen_flat8_scale
+BMT_FLAT8 FILL_XOR   BMF_OPAQUE gen_flat8_scale
+BMT_RSD8  FILL_NORM  BMF_TRANS  gen_rsd8_scale
+BMT_RSD8  FILL_NORM  BMF_OPAQUE gen_rsd8_scale
+BMT_RSD8  FILL_CLUT  BMF_TRANS  gen_rsd8_scale
+BMT_RSD8  FILL_CLUT  BMF_OPAQUE gen_rsd8_scale
+BMT_RSD8  FILL_SOLID BMF_TRANS  gen_rsd8_scale
+BMT_RSD8  FILL_SOLID BMF_OPAQUE gen_rsd8_scale
+BMT_RSD8  FILL_BLEND BMF_TRANS  gen_rsd8_scale
+BMT_RSD8  FILL_BLEND BMF_OPAQUE gen_rsd8_scale
+BMT_RSD8  FILL_XOR   BMF_TRANS  gen_rsd8_scale
+BMT_RSD8  FILL_XOR   BMF_OPAQUE gen_rsd8_scale
+BMT_FLAT16 FILL_NORM  BMF_TRANS  gen_flat16_scale
+BMT_FLAT16 FILL_NORM  BMF_OPAQUE gen_flat16_scale
+BMT_FLAT16 FILL_CLUT  BMF_TRANS  gen_flat16_scale
+BMT_FLAT16 FILL_CLUT  BMF_OPAQUE gen_flat16_scale
+BMT_FLAT16 FILL_SOLID BMF_TRANS  gen_flat16_scale
+BMT_FLAT16 FILL_SOLID BMF_OPAQUE gen_flat16_scale
+BMT_FLAT16 FILL_BLEND BMF_TRANS  gen_flat16_scale
+BMT_FLAT16 FILL_BLEND BMF_OPAQUE gen_flat16_scale
+BMT_FLAT16 FILL_XOR   BMF_TRANS  gen_flat16_scale
+BMT_FLAT16 FILL_XOR   BMF_OPAQUE gen_flat16_scale
+end_entries

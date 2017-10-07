@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sound - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"..\_Bins\Release/sndtest.res" /d "NDEBUG" "C:\Sources\DarkEngine\prj\tech\libsrc\sound\sndtest.rc"" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP3C0D.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /I "..\..\..\3rdsrc\Qmix413" /I "..\..\..\3rdsrc\Aureal3d" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/sound.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
+"C:\Sources\DarkEngine\prj\tech\libsrc\sound\dmixer.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sound\dsample.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sound\dsnddynf.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sound\fade.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sound\lgsndid.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sound\midiplay.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sound\mixer.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sound\qmixer.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sound\qsample.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sound\sample.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sound\sndfmt.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sound\timelog.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sound\waildynf.cpp"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP3C0D.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP3C0E.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\sound.lib" 
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\dmixer.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\dsample.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\dsnddynf.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\fade.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\lgsndid.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\midiplay.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\mixer.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\qmixer.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\qsample.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\sample.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\sndfmt.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\timelog.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\waildynf.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\sndtest.res
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP3C0E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+dmixer.cpp
+dsample.cpp
+dsnddynf.cpp
+fade.cpp
+..\comtools\comtools.h(196) : warning C4005: 'IUnknown_QueryInterface' : macro redefinition
+        C:\SOURCES\DARKENGINE\PRJ\3RDSRC\DX70\INCLUDE\dsound.h(257) : see previous definition of 'IUnknown_QueryInterface'
+..\comtools\comtools.h(197) : warning C4005: 'IUnknown_AddRef' : macro redefinition
+        C:\SOURCES\DARKENGINE\PRJ\3RDSRC\DX70\INCLUDE\dsound.h(260) : see previous definition of 'IUnknown_AddRef'
+..\comtools\comtools.h(198) : warning C4005: 'IUnknown_Release' : macro redefinition
+        C:\SOURCES\DARKENGINE\PRJ\3RDSRC\DX70\INCLUDE\dsound.h(263) : see previous definition of 'IUnknown_Release'
+lgsndid.cpp
+midiplay.cpp
+mixer.cpp
+..\comtools\comtools.h(196) : warning C4005: 'IUnknown_QueryInterface' : macro redefinition
+        C:\SOURCES\DARKENGINE\PRJ\3RDSRC\DX70\INCLUDE\dsound.h(257) : see previous definition of 'IUnknown_QueryInterface'
+..\comtools\comtools.h(197) : warning C4005: 'IUnknown_AddRef' : macro redefinition
+        C:\SOURCES\DARKENGINE\PRJ\3RDSRC\DX70\INCLUDE\dsound.h(260) : see previous definition of 'IUnknown_AddRef'
+..\comtools\comtools.h(198) : warning C4005: 'IUnknown_Release' : macro redefinition
+        C:\SOURCES\DARKENGINE\PRJ\3RDSRC\DX70\INCLUDE\dsound.h(263) : see previous definition of 'IUnknown_Release'
+qmixer.cpp
+qsample.cpp
+sample.cpp
+..\comtools\comtools.h(196) : warning C4005: 'IUnknown_QueryInterface' : macro redefinition
+        C:\SOURCES\DARKENGINE\PRJ\3RDSRC\DX70\INCLUDE\dsound.h(257) : see previous definition of 'IUnknown_QueryInterface'
+..\comtools\comtools.h(197) : warning C4005: 'IUnknown_AddRef' : macro redefinition
+        C:\SOURCES\DARKENGINE\PRJ\3RDSRC\DX70\INCLUDE\dsound.h(260) : see previous definition of 'IUnknown_AddRef'
+..\comtools\comtools.h(198) : warning C4005: 'IUnknown_Release' : macro redefinition
+        C:\SOURCES\DARKENGINE\PRJ\3RDSRC\DX70\INCLUDE\dsound.h(263) : see previous definition of 'IUnknown_Release'
+sndfmt.cpp
+..\comtools\comtools.h(196) : warning C4005: 'IUnknown_QueryInterface' : macro redefinition
+        C:\SOURCES\DARKENGINE\PRJ\3RDSRC\DX70\INCLUDE\dsound.h(257) : see previous definition of 'IUnknown_QueryInterface'
+..\comtools\comtools.h(197) : warning C4005: 'IUnknown_AddRef' : macro redefinition
+        C:\SOURCES\DARKENGINE\PRJ\3RDSRC\DX70\INCLUDE\dsound.h(260) : see previous definition of 'IUnknown_AddRef'
+..\comtools\comtools.h(198) : warning C4005: 'IUnknown_Release' : macro redefinition
+        C:\SOURCES\DARKENGINE\PRJ\3RDSRC\DX70\INCLUDE\dsound.h(263) : see previous definition of 'IUnknown_Release'
+timelog.cpp
+waildynf.cpp
+Creating library...
+dmixer.obj : warning LNK4006: _IID_IA3d already defined in lgsndid.obj; second definition ignored
+dmixer.obj : warning LNK4006: _CLSID_A3d already defined in lgsndid.obj; second definition ignored
+
+
+
+<h3>Results</h3>
+sound.lib - 0 error(s), 14 warning(s)
+</pre>
+</body>
+</html>

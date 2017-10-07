@@ -1,0 +1,144 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ui - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP72C3.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/ui.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\butarray.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\curdrw.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\cursors.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\event.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\gadgets.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\hotkey.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\menu.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\plain.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\pushbutt.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\qboxgadg.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\region.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\slab.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\slider.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\textgadg.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\texttool.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\tng.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngbarry.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngfont.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngmenu.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngplain.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngpushb.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngqbox.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngtextg.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\uires.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\ui\vmouse.c"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP72C3.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP72C4.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\ui.lib" 
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\butarray.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\curdrw.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\cursors.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\event.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\gadgets.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\hotkey.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\menu.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\plain.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\pushbutt.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\qboxgadg.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\region.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\slab.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\slider.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\textgadg.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\texttool.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\tng.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\tngbarry.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\tngfont.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\tngmenu.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\tngplain.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\tngpushb.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\tngqbox.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\tngslidr.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\tngtextg.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\uires.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\vmouse.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP72C4.tmp"
+<h3>Output Window</h3>
+Compiling...
+butarray.c
+curdrw.c
+cursors.c
+event.c
+gadgets.c
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\gadgets.c(502) : warning C4047: 'return' : 'short ' differs in levels of indirection from 'void *'
+hotkey.c
+menu.c
+plain.c
+pushbutt.c
+qboxgadg.c
+region.c
+slab.c
+slider.c
+textgadg.c
+texttool.c
+tng.c
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tng.c(18) : warning C4047: 'initializing' : 'unsigned long ' differs in levels of indirection from 'void *'
+tngbarry.c
+tngfont.c
+tngmenu.c
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngmenu.c(317) : warning C4047: '=' : 'unsigned long ' differs in levels of indirection from 'void *'
+tngplain.c
+tngpushb.c
+tngqbox.c
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngqbox.c(436) : warning C4047: '!=' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngqbox.c(440) : warning C4047: '!=' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngqbox.c(512) : warning C4047: '!=' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngqbox.c(546) : warning C4047: '!=' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngqbox.c(631) : warning C4047: '!=' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngqbox.c(635) : warning C4047: '!=' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngqbox.c(655) : warning C4047: '!=' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngqbox.c(689) : warning C4047: '!=' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngqbox.c(888) : warning C4047: '!=' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngqbox.c(903) : warning C4047: '!=' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngqbox.c(1285) : warning C4047: '==' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngqbox.c(1289) : warning C4047: '==' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngqbox.c(1312) : warning C4047: '==' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngqbox.c(1316) : warning C4047: '==' : 'unsigned long ' differs in levels of indirection from 'void *'
+tngslidr.c
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(9) : warning C4047: 'function' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(9) : warning C4024: 'tng_slider_full_init' : different types for formal and actual parameter 10
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(9) : warning C4047: 'function' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(9) : warning C4024: 'tng_slider_full_init' : different types for formal and actual parameter 11
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(9) : warning C4047: 'function' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(9) : warning C4024: 'tng_slider_full_init' : different types for formal and actual parameter 12
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(9) : warning C4047: 'function' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(9) : warning C4024: 'tng_slider_full_init' : different types for formal and actual parameter 13
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(9) : warning C4047: 'function' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(9) : warning C4024: 'tng_slider_full_init' : different types for formal and actual parameter 14
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(86) : warning C4047: '==' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(96) : warning C4047: '==' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(106) : warning C4047: '==' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(130) : warning C4047: '!=' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(155) : warning C4047: '!=' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(195) : warning C4047: '!=' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(268) : warning C4047: '!=' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(272) : warning C4047: '!=' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(283) : warning C4047: '!=' : 'unsigned long ' differs in levels of indirection from 'void *'
+C:\Sources\DarkEngine\prj\tech\libsrc\ui\tngslidr.c(287) : warning C4047: '!=' : 'unsigned long ' differs in levels of indirection from 'void *'
+tngtextg.c
+uires.c
+vmouse.c
+Creating library...
+
+
+
+<h3>Results</h3>
+ui.lib - 0 error(s), 37 warning(s)
+</pre>
+</body>
+</html>

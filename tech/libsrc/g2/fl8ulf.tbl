@@ -1,0 +1,11 @@
+table_name flat8_uline_func
+table_indexes FILL
+include dev2d.h
+include fl8lf.h
+begin_entries
+FILL_NORM    flat8_uline_norm
+FILL_CLUT    flat8_uline_clut
+FILL_SOLID   flat8_uline_solid
+FILL_BLEND   flat8_uline_blend
+FILL_XOR     flat8_uline_xor
+end_entries

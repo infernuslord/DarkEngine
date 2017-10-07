@@ -1,0 +1,33 @@
+IDBASE 600
+IDLIMIT 700
+
+
+RES unnamed IMAGE 
+        FILE "demoff.pcx" 
+        MetaGameBG AREA FULL 
+        END
+
+RES MetagamePal PALL "demoff.pcx" 0 256
+
+RES unnamed IMAGE
+        FILE "cursor.pcx" bordcol 254 
+        MetaGameCursor transp pall 0 256
+        END
+
+RES DemoUIRects RECT
+        FILE "demoffm.pcx" bordcol 254
+        graball 
+        END
+
+RES DemoUIButts IMAGE
+        FILE "demoffm.pcx" bordcol 254
+        graball
+        END
+
+RES DemoUIDownButts IMAGE
+        FILE "demonm.pcx" bordcol 254
+        graball
+        END
+
+
+

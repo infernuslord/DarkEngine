@@ -1,0 +1,115 @@
+# $Source: r:/t2repos/thief2/src/flags.mh,v $
+# $Revision: 1.25 $
+# $Author: adurant $
+# $Date: 2000/01/29 12:41:16 $
+#
+
+##########################
+#
+# It's flags.mh, the list of all compile-time flags and whether they are
+# defined or not.
+
+##########################
+#
+# The list of flags!
+#
+# These must each be defined to nothing or to themselves.
+# Nothing wacky like DBG_ON = 1.
+#
+# Here we set the flags to their default values, so that when you check in
+# flags.mh and the other programmers haven't updated their flagsloc.mh's
+# yet, they will have reasonable values.
+
+# The 3 big flags for versions of the game are:
+# EDITOR -- this is for all versions that  include the editor modes
+# PLAYTEST -- playtesting functions like various hotkeys
+
+EDITOR = 
+PLAYTEST = PLAYTEST
+
+# To include Networking code
+NEW_NETWORK_ENABLED =
+
+# Sean profiling
+PROFILE_ON =
+PROFILE_CHILD = PROFILE_CHILD
+
+# Whether or not bugtrak functions should get compiled in at all
+BUGTRAK = 
+
+#whether or not packets should spew to mono
+PACKETTALK=
+
+# use RGB lighting (doubles lightmap storage, only works in hardware)
+RGB_LIGHTING=
+
+# use 888 RGB lighting (doubles lightmap storage again)
+RGB_888=
+
+# try to hack RGB lighting in software (uses lots of memory, so
+# shock should only enable this in the editor)
+SOFTWARE_RGB=
+
+# allow lightmaps larger than 16x16
+BIG_LIGHTMAPS=
+
+# is the report system in
+REPORT=
+
+# Blame properties for memory usage
+PROPERTY_BLAME=PROPERTY_BLAME
+
+# gather property timing stats
+PROPERTY_TIME=
+
+# can you load schemas and stuff
+SCHEMA_LOADING=
+
+# do you want copy protection
+COPY_PROTECTION=
+# do you want real "specially formatted CD" protection
+FULL_COPY_PROTECTION=
+
+# shock-only game
+SHOCK=
+
+# thief-only game
+THIEF=
+
+# Deep Cover-only game
+DEEPC=
+
+# Thief Two Demo
+THIEFTWODEMO=
+
+##########################
+#
+# Here include a list of project specific master configuration information
+# probably the defines should just be in the flags.mh, but I'd rather keep 
+# them separate for now
+
+%if %exists(master.mh) && %defined(MASTER)
+%include master.mh
+%endif
+
+##########################
+#
+# The above defaults can be overridden in flagsloc.mh, which is a local
+# per-person file, unlike flags.mh, which is universal.  You may also
+# want to set MASTER_FLAG in there.
+
+%if %exists(flagsloc.mh)
+%include flagsloc.mh
+%endif
+
+##########################
+#
+# This must be called ALL_FLAGS.  It only changes when you add
+# a new flag above.
+
+ALL_FLAGS = $(EDITOR) $(PLAYTEST) $(PROFILE_ON) $(PROFILE_CHILD) $(REPORT) \
+            $(NEW_NETWORK_ENABLED) $(PACKETTALK) $(BIG_LIGHTMAPS) \
+            $(RGB_LIGHTING) $(RGB_888) $(SOFTWARE_RGB) $(PROPERTY_BLAME) \
+            $(PROPERTY_TIME) $(SCHEMA_LOADING) \
+            $(COPY_PROTECTION) $(FULL_COPY_PROTECTION) $(SHOCK_TECH_TREE) \
+            $(SHOCK) $(THIEF) $(DEEPC) $(THIEFTWODEMO)

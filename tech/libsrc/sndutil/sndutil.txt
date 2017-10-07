@@ -1,0 +1,37 @@
+
+The sound utilities library holds things which may be useful to
+multiple projects, but which do not belong in the lgsound library.
+
+This directory also holds source for stand-alone test programs and
+utilities which may also be used as examples.
+
+------------ stuff which is in sndutil .lib ------------
+
+rstremer.c
+   play a sound in a resource file
+fstremer.c
+   play a sound in a file
+streamer.c
+   play a sound using a stream (internal)
+
+rsplicer.c
+   play a sequence of sounds in a resource file
+fsplicer.c
+   play a sequence of sounds in files
+splicer.c
+   play a sequence of sounds using a stream (internal
+
+oneshot.c  TBD
+   play a one-shot sound in a resource file (more efficient
+   than normal lgsound method of playing one-shot sounds)
+
+------------ stuff which is NOT in sndutil .lib ------------
+utilmain.c
+   common functions for setting up the lgsound library, used
+   by stand-alone programs
+
+splcmain.c
+   main routine for splice.exe
+
+strmmain.c
+   main routine for stream.exe

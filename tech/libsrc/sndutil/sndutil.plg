@@ -1,0 +1,114 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sndutil - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP2670.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/sndutil.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
+"C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\foneshot.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\fsplicer.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\fstremer.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\mstremer.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\onemain.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\oneshot.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\roneshot.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\rsplicer.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\rstremer.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\sndrezst.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\splcmain.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\splicer.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\streamer.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\strmmain.c"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP2670.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP2671.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\sndutil.lib" 
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\foneshot.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\fsplicer.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\fstremer.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\imaadpcm.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\mstremer.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\onemain.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\oneshot.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\roneshot.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\rsplicer.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\rstremer.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\sndrezst.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\splcmain.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\splicer.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\streamer.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\strmmain.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\utilmain.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP2671.tmp"
+<h3>Output Window</h3>
+Compiling...
+foneshot.c
+fsplicer.c
+fstremer.c
+mstremer.c
+onemain.c
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\onemain.c(122) : warning C4090: 'function' : different 'const' qualifiers
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\onemain.c(122) : warning C4024: 'CreateSoundFileOneShot' : different types for formal and actual parameter 2
+oneshot.c
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\oneshot.c(27) : warning C4013: 'LOG0' undefined; assuming extern returning int
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\oneshot.c(94) : warning C4013: 'LOG2' undefined; assuming extern returning int
+roneshot.c
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\roneshot.c(60) : warning C4013: 'LOG2' undefined; assuming extern returning int
+rsplicer.c
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\rsplicer.c(73) : warning C4013: 'LOG2' undefined; assuming extern returning int
+rstremer.c
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\rstremer.c(65) : warning C4013: 'LOG2' undefined; assuming extern returning int
+sndrezst.c
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\sndrezst.c(60) : warning C4013: 'LOG3' undefined; assuming extern returning int
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\sndrezst.c(67) : warning C4047: 'function' : 'void *(__cdecl *)(void *,void *,unsigned long )' differs in levels of indirection from 'void (__cdecl *)(void *,void *,unsigned long )'
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\sndrezst.c(67) : warning C4022: 'function through pointer' : pointer mismatch for actual parameter 2
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\sndrezst.c(82) : warning C4013: 'mprintf' undefined; assuming extern returning int
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\sndrezst.c(83) : warning C4013: 'LOG0' undefined; assuming extern returning int
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\sndrezst.c(237) : warning C4047: 'function' : 'void *(__cdecl *)(void *,void *,unsigned long )' differs in levels of indirection from 'void (__cdecl *)(void *,void *,unsigned long )'
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\sndrezst.c(237) : warning C4022: 'function through pointer' : pointer mismatch for actual parameter 2
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\sndrezst.c(206) : warning C4101: 'bytesToWrite' : unreferenced local variable
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\sndrezst.c(206) : warning C4101: 'bytesToRead' : unreferenced local variable
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\sndrezst.c(425) : warning C4047: 'function' : 'void *(__cdecl *)(void *,void *,unsigned long )' differs in levels of indirection from 'void (__cdecl *)(void *,void *,unsigned long )'
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\sndrezst.c(425) : warning C4022: 'function through pointer' : pointer mismatch for actual parameter 2
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\sndrezst.c(439) : warning C4047: 'function' : 'void *(__cdecl *)(void *,void *,unsigned long )' differs in levels of indirection from 'void (__cdecl *)(void *,void *,unsigned long )'
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\sndrezst.c(439) : warning C4022: 'function through pointer' : pointer mismatch for actual parameter 2
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\sndrezst.c(479) : warning C4047: 'function' : 'void *(__cdecl *)(void *,void *,unsigned long )' differs in levels of indirection from 'void (__cdecl *)(void *,void *,unsigned long )'
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\sndrezst.c(479) : warning C4022: 'function through pointer' : pointer mismatch for actual parameter 2
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\sndrezst.c(606) : warning C4013: 'LOG2' undefined; assuming extern returning int
+splcmain.c
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\splcmain.c(133) : warning C4090: '=' : different 'const' qualifiers
+splicer.c
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\splicer.c(127) : warning C4013: 'LOG3' undefined; assuming extern returning int
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\splicer.c(136) : warning C4013: 'LOG1' undefined; assuming extern returning int
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\splicer.c(140) : warning C4013: 'LOG2' undefined; assuming extern returning int
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\splicer.c(149) : warning C4013: 'LOG0' undefined; assuming extern returning int
+streamer.c
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\streamer.c(70) : warning C4013: 'LOG3' undefined; assuming extern returning int
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\streamer.c(204) : warning C4013: 'LOG0' undefined; assuming extern returning int
+strmmain.c
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\strmmain.c(119) : warning C4090: 'function' : different 'const' qualifiers
+C:\Sources\DarkEngine\prj\tech\libsrc\sndutil\strmmain.c(119) : warning C4024: 'CreateSoundFileStreamer' : different types for formal and actual parameter 2
+Creating library...
+splcmain.obj : warning LNK4006: _WndProc@16 already defined in strmmain.obj; second definition ignored
+splcmain.obj : warning LNK4006: _AppMain@8 already defined in strmmain.obj; second definition ignored
+splcmain.obj : warning LNK4006: _AppCreateObjects@8 already defined in strmmain.obj; second definition ignored
+rstremer.obj : warning LNK4006: _CreateSoundRezStreamer already defined in sndrezst.obj; second definition ignored
+rsplicer.obj : warning LNK4006: _CreateSoundRezSplicer already defined in sndrezst.obj; second definition ignored
+roneshot.obj : warning LNK4006: _CreateSoundRezOneShot already defined in sndrezst.obj; second definition ignored
+onemain.obj : warning LNK4006: _WndProc@16 already defined in strmmain.obj; second definition ignored
+onemain.obj : warning LNK4006: _AppMain@8 already defined in strmmain.obj; second definition ignored
+onemain.obj : warning LNK4006: _AppCreateObjects@8 already defined in strmmain.obj; second definition ignored
+
+
+
+<h3>Results</h3>
+sndutil.lib - 0 error(s), 41 warning(s)
+</pre>
+</body>
+</html>

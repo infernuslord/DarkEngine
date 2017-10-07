@@ -1,0 +1,35 @@
+===============================================================
+$Source: x:/prj/tech/libsrc/templgen/RCS/templgen.txt $
+$Author: TOML $
+$Date: 1996/05/01 19:17:17 $
+$Revision: 1.2 $
+===============================================================
+
+This project is used as a central location for C++ template
+expansion of templates used in the libraries.
+
+What is a template expansion file?
+----------------------------------
+When using templates, the has to be an expansion of all
+non-inline C++ template functions for the given types used in
+your program.  A template expansion file is a file which
+includes all the headers that declare the use of a template,
+followed by includes of special ".tem" files that contain the
+implementations of non-inline template functions.
+
+So after preprocessing, you essentially have:
+
+    declaration of template
+    declaration of template clients
+    definition of non-inline template functions
+
+This allows the compiler to generate all the functions you
+need.
+
+Pitfalls
+--------
+Unfortunately, the library expansions cannot satisfy all
+possible expansions.  In simple cases, this means your project
+might also have to have template expansion files.  If your
+objs start having linker collisions with the templgen library,
+you'll have to start maintaining your own files exclusively.

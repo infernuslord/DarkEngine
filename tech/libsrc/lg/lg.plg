@@ -1,0 +1,139 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: lg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP4AF0.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/lg.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\appagg.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\breakkey.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\bugtrak.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\codewrit.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\coremutx.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\crc32.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\datapath.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\dbg.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\dbgcfg.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\dpathdir.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\exit.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\findfile.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\hashfns.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\lgassert.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\lglog.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\lgprntf.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\lgsprntf.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\memgrow.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\memreq.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\memstat.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\stack.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\stktrace.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\thrdtool.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\timings.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\lg\tmpalloc.c"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP4AF0.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP4AF1.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\lg.lib" 
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\appagg.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\breakkey.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\bugtrak.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\codewrit.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\coremutx.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\crc32.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\datapath.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\dbg.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\dbgcfg.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\dpathdir.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\exit.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\findfile.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\hashfns.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\lgassert.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\lglog.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\lgprntf.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\lgsprntf.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\memgrow.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\memreq.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\memstat.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\stack.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\stktrace.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\thrdtool.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\timings.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\tmpalloc.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP4AF1.tmp"
+<h3>Output Window</h3>
+Compiling...
+appagg.cpp
+breakkey.cpp
+bugtrak.c
+codewrit.cpp
+coremutx.cpp
+C:\Sources\DarkEngine\prj\tech\libsrc\lg\coremutx.cpp(15) : warning C4074: initializers put in compiler reserved initialization area
+crc32.cpp
+datapath.cpp
+C:\Sources\DarkEngine\prj\tech\libsrc\lg\datapath.cpp(84) : warning C4005: 'min' : macro redefinition
+        C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\windef.h(181) : see previous definition of 'min'
+dbg.c
+dbgcfg.c
+dpathdir.c
+exit.c
+findfile.cpp
+hashfns.cpp
+read the comment dated 02-24-98!
+lgassert.cpp
+lglog.cpp
+lgprntf.c
+lgsprntf.c
+memgrow.c
+memreq.cpp
+memstat.c
+stack.c
+stktrace.cpp
+thrdtool.cpp
+timings.cpp
+tmpalloc.c
+Creating library...
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP6224.tmp" with contents
+[
+/nologo /o"..\_Libs\Release/lg.bsc" 
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\appagg.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\breakkey.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\bugtrak.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\codewrit.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\coremutx.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\crc32.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\datapath.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\dbg.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\dbgcfg.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\dpathdir.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\exit.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\findfile.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\hashfns.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\lgassert.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\lglog.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\lgprntf.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\lgsprntf.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\memgrow.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\memreq.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\memstat.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\stack.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\stktrace.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\thrdtool.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\timings.sbr
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\tmpalloc.sbr]
+Creating command line "bscmake.exe @C:\Users\Infernus\AppData\Local\Temp\RSP6224.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+lg.lib - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

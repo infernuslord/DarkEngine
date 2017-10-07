@@ -1,0 +1,175 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+APPICON                 ICON    DISCARDABLE     "shkicon.ico"
+IDR_GAMEICON            ICON    DISCARDABLE     "shkicon.ico"
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DXWARNDIALOG DIALOG DISCARDABLE  0, 0, 240, 198
+STYLE DS_MODALFRAME | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,94,175,50,14
+    CONTROL         "",IDC_NEVERAGAIN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    41,161,157,10
+    EDITTEXT        IDC_DXINFO,43,9,147,138,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    GROUPBOX        "",IDC_STATIC,35,1,166,152
+END
+
+
+
+#define VS_VERSION_INFO 1
+
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 2,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+// 0409 = English
+// 0411 = Japanese
+// 4b0 = 1200 (charset)
+// 3a4 = 932  (charset japan)
+
+#ifdef JPN
+        BLOCK "041103a4"
+#else
+        BLOCK "040904B0"
+#endif
+        BEGIN
+            VALUE "CompanyName", "Looking Glass Studios\0"
+            VALUE "FileDescription", "System Shock 2\0"
+            VALUE "FileVersion", "1, 0, 0, 0\0"
+            VALUE "LegalCopyright", "Copyright \251 1998\0"
+            VALUE "OriginalFilename", "shock2.EXE\0"
+            VALUE "ProductName", "System Shock 2\0"
+            VALUE "ProductVersion", "2.3\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+#ifdef JPN
+        VALUE "Translation", 0x411, 932
+#else 
+        VALUE "Translation", 0x409, 1200
+#endif 
+    END
+END
+
+
+
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resrc1.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDR_GAMEDEFAULTDIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 223
+        BOTTOMMARGIN, 73
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

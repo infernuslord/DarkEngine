@@ -1,0 +1,48 @@
+// $Header: r:/t2repos/thief2/src/madcow.txt,v 1.3 1997/03/06 01:02:35 dc Exp $
+
+Editor Portion of the Savefile Contains:
+
+  1) Header     (Tag: BRHEAD)
+     1.0: a version 1.0 header struct, holding
+          creator name, last user name, fancy level name
+          ambient level, sky name
+     2.0: add hot region state, color state
+          current editor brush, current vBrush group
+
+  2) Family list   (Tag: FAMILY)
+     1.0: block header
+          then list of "current" families
+
+  3) Texture list (Tag: TXLIST)
+     1.0: contains a deswizzled resname memory block (from rnbuildblock)
+          the idea is it used after the families are loaded
+
+  4) Objects    (Tag: OBJ MD)
+     1.0: block header with count
+          list of object model name for that idx in the source
+
+  5) Biped List (Tag: BIPEDS)
+     1.0: block header with count
+          list of master name for each biped loaded (currently we support
+          only one of course) in idx order for the biped
+     XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+     this tag no longer valid or used, apparently
+
+
+  6) Brush list (Tag: BRLIST)
+     1.0: contains a sequential array of brushes
+          all brushes are editBrush - texinfo big
+          terrain brushes have num_faces*texinfo as well
+          
+  7) AI's and Pathfinding Data (Tag:AI)
+     1.0: pathfinding data
+          ai count and list of AI classes
+          
+  8) World Rep (Tag:WR)
+     1.0: cell count
+          array of cells with all subdata
+          
+
+
+
+     

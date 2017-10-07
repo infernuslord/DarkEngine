@@ -1,0 +1,9 @@
+table_name gen_uscale_func
+table_indexes BMT
+include dev2d.h
+include gensf.h
+include swarn.h
+begin_entries
+BMT_FLAT8       gen_flat8_uscale
+BMT_RSD8        gen_rsd8_uscale
+end_entries

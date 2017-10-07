@@ -1,0 +1,3 @@
+#pragma once
+DEFINE_LG_GUID(LOOPMODE_DarkPanel, 0x196);
+DEFINE_LG_GUID(LOOPID_DarkPanel, 0x197);

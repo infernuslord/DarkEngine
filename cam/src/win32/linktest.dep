@@ -1,0 +1,65 @@
+### OPUS MKMF:  Do not remove this line!  Generated dependencies follow.
+
+linklex.obj: \
+	 linktok.h \
+	 string.h \
+	 stdlib.h \
+	 lg.h \
+		 lgalt.h \
+		 dbg.h \
+			 dbgmacro.h \
+			 types.h \
+			 stdio.h \
+		 memall.h \
+			 memmacro.h \
+			 types.h \
+			 malloc.h \
+		 lgassert.h \
+			 lglog.h \
+			 assert.h \
+		 lglocmsg.h \
+		 lglog.h \
+		 types.h \
+	 string.h \
+	 stdio.h \
+	 stdlib.h
+
+linktest.obj: \
+	 string.h \
+	 stdlib.h \
+	 mprintf.h \
+	 _linkman.hpp \
+		 links.h \
+			 lg.h \
+				 lgalt.h \
+				 dbg.h \
+					 dbgmacro.h \
+					 types.h \
+					 stdio.h \
+				 memall.h \
+					 memmacro.h \
+					 types.h \
+					 malloc.h \
+				 lgassert.h \
+					 lglog.h \
+					 assert.h \
+				 lglocmsg.h \
+				 lglog.h \
+				 types.h \
+		 array.h \
+			 error.h \
+			 lg.h \
+		 lg.h \
+	 links.hpp \
+		 links.h \
+	 cfg.h \
+	 config.h \
+		 error.h \
+		 lg.h \
+	 hash.h \
+		 _dstruct.h \
+		 error.h \
+		 lg.h \
+	 string.h \
+	 error.h \
+	 lg.h

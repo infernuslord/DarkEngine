@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: font - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP769F.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/font.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
+"C:\Sources\DarkEngine\prj\tech\libsrc\font\chr.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\font\chrclr.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\font\chrsiz.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\font\f16fl8t.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\font\ftest.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\font\setup.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\font\strclr.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\font\strscl.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\font\strsiz.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\font\strwrap.c"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP769F.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP76A0.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\font.lib" 
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\chr.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\chrclr.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\chrsiz.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\f16fl8t.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\ftest.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\setup.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\str.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\strclr.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\strscl.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\strsiz.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\strwrap.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP76A0.tmp"
+<h3>Output Window</h3>
+Compiling...
+chr.c
+chrclr.c
+chrsiz.c
+f16fl8t.c
+ftest.c
+setup.c
+C:\Sources\DarkEngine\prj\tech\libsrc\font\setup.c(41) : warning C4047: '=' : 'short *' differs in levels of indirection from 'short (*)[1]'
+strclr.c
+strscl.c
+strsiz.c
+strwrap.c
+Creating library...
+
+
+
+<h3>Results</h3>
+font.lib - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

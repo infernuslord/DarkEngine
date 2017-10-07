@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gameshel - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP313A.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/gameshel.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
+"C:\Sources\DarkEngine\prj\tech\libsrc\gameshel\wgscreat.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\gameshel\wgshell.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\gameshel\wgshelmt.cpp"
+"C:\Sources\DarkEngine\prj\tech\libsrc\gameshel\winput.cpp"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP313A.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP313B.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\gameshel.lib" 
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\wgscreat.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\wgshell.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\wgshelmt.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\winput.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP313B.tmp"
+<h3>Output Window</h3>
+Compiling...
+wgscreat.cpp
+wgshell.cpp
+C:\Sources\DarkEngine\prj\tech\libsrc\gameshel\wgshell.cpp(262) : error C2451: conditional expression of type 'class cAutoIPtr<struct IApplication>' is illegal
+        Ambiguous user-defined-conversion
+C:\Sources\DarkEngine\prj\tech\libsrc\gameshel\wgshell.cpp(422) : error C2451: conditional expression of type 'class cAutoIPtr<struct IAggregate>' is illegal
+        Ambiguous user-defined-conversion
+C:\Sources\DarkEngine\prj\tech\libsrc\gameshel\wgshell.cpp(427) : error C2451: conditional expression of type 'class cAutoIPtr<struct IAggregate>' is illegal
+        Ambiguous user-defined-conversion
+C:\Sources\DarkEngine\prj\tech\libsrc\gameshel\wgshell.cpp(469) : error C2451: conditional expression of type 'class cAutoIPtr<struct IAggregate>' is illegal
+        Ambiguous user-defined-conversion
+C:\Sources\DarkEngine\prj\tech\libsrc\gameshel\wgshell.cpp(474) : error C2451: conditional expression of type 'class cAutoIPtr<struct IAggregate>' is illegal
+        Ambiguous user-defined-conversion
+C:\Sources\DarkEngine\prj\tech\libsrc\gameshel\wgshell.cpp(484) : error C2451: conditional expression of type 'class cIPtr<struct IDisplayDevice>' is illegal
+        Ambiguous user-defined-conversion
+C:\Sources\DarkEngine\prj\tech\libsrc\gameshel\wgshell.cpp(485) : error C2451: conditional expression of type 'class cIPtr<struct IWinApp>' is illegal
+        Ambiguous user-defined-conversion
+C:\Sources\DarkEngine\prj\tech\libsrc\gameshel\wgshell.cpp(486) : error C2451: conditional expression of type 'class cIPtr<struct IWinDisplayDevice>' is illegal
+        Ambiguous user-defined-conversion
+C:\Sources\DarkEngine\prj\tech\libsrc\gameshel\wgshell.cpp(869) : error C2451: conditional expression of type 'class cAutoIPtr<struct IApplication>' is illegal
+        Ambiguous user-defined-conversion
+wgshelmt.cpp
+winput.cpp
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+gameshel.lib - 9 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

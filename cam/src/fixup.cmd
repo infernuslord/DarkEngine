@@ -1,0 +1,16 @@
+hilight_by_prop aircprop
+hilight_rem_prop aircprop
+hilight_add_prop aircprop
+hilight_obj_type ladder
+hilight_rem_prop physdims
+hilight_add_prop physdims
+hilight_obj_type metal_ladder
+hilight_rem_prop physdims
+hilight_add_prop physdims
+hilight_obj_type torch
+hilight_rem_prop physdims
+hilight_add_prop physdims
+hilight_by_prop corona
+hilight_rem_prop corona
+hilight_clear
+

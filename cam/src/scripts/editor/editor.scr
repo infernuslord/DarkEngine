@@ -1,0 +1,87 @@
+IDBASE 500
+IDLIMIT 600
+
+
+RES unnamed IMAGE 
+        FILE "editback.pcx" 
+        EditorBG AREA FULL 
+        END
+
+RES EditorPal PALL "pal.pcx" 0 256
+
+RES unnamed IMAGE
+        FILE "cursor.pcx" bordcol 254
+        EditCursor transp pall 0 156
+        END
+
+RES EditorLayout640x480 RECT
+        FILE "lay64x48.pcx" bordcol 254
+        layViewMan
+        layGFH
+        layCommand
+        layStatus
+        END
+
+RES EditorLayout1024x768 RECT
+        FILE "laykx768.pcx" bordcol 254
+        graball
+        END
+
+EMIT { "#define RES_EditorLayout1280x1024 RES_EditorLayout1024x768" }
+
+RES EditorLayout800x600 RECT
+        FILE "lay80x60.pcx" bordcol 254
+        graball
+        END
+
+
+RES EditorFont FONT "editfont.fon" 
+
+RES GFHRect RECT
+        FILE "gfh.pcx" bordcol 254
+        GFHbounds
+
+        FILE "gfh.pcx" bordcol 252 
+        GFHBrushArea
+        GFHSwapArea
+        GFHModalArea
+
+        FILE "gfh.pcx" bordcol 253
+        GFHBrushTopL
+        GFHBrushTopM
+        GFHBrushTopR
+
+        GFHBrushMidL
+        GFHBrushMidM
+        GFHBrushMidR
+        
+        GFHBrushBotL
+        GFHBrushBotM
+        GFHBrushBotR
+
+        FILE "gfh.pcx" bordcol 250
+        GFH_UndoArea
+        GFH_DeleteArea
+        GFH_IDArea
+        GFH_TimeArea
+        GFH_MouseModeArea
+
+
+        END
+
+RES GFH_EditBits RECT
+        FILE "gfh.pcx" BORDCOL 249
+        graball
+        END
+
+RES GFHcoord RECT
+        FILE "gfh.pcx" bordcol 251
+        graball
+        END
+
+
+RES unnamed IMAGE
+        FILE "editart.pcx" bordcol 254
+        LeftArrow 
+        RightArrow
+        END

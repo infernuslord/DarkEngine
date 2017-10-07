@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gfile - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP4021.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/gfile.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
+"C:\Sources\DarkEngine\prj\tech\libsrc\gfile\bmp.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\gfile\cel.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\gfile\gfile.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\gfile\gftest.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\gfile\gif.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\gfile\pcx.c"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP4021.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP4022.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\gfile.lib" 
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\bmp.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\cel.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\gfile.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\gftest.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\gif.obj
+\Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\pcx.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP4022.tmp"
+<h3>Output Window</h3>
+Compiling...
+bmp.c
+cel.c
+gfile.c
+C:\Sources\DarkEngine\prj\tech\libsrc\gfile\gfile.c(74) : warning C4028: formal parameter 2 different from declaration
+C:\Sources\DarkEngine\prj\tech\libsrc\gfile\gfile.c(154) : warning C4028: formal parameter 2 different from declaration
+gftest.c
+gif.c
+pcx.c
+Creating library...
+
+
+
+<h3>Results</h3>
+gfile.lib - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
