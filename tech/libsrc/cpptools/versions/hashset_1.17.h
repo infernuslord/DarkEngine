@@ -1,8 +1,8 @@
 ///////////////////////////////////////////////////////////////////////////////
 // $Source: x:/prj/tech/libsrc/cpptools/RCS/hashset.h $
-// $Author: JAEMZ $
-// $Date: 1999/09/22 19:35:20 $
-// $Revision: 1.19 $
+// $Author: JUSTIN $
+// $Date: 1998/07/09 11:37:34 $
+// $Revision: 1.17 $
 //
 // (c) Copyright 1993-1996 Tom Leonard. All Rights Reserved. Unlimited license granted to Looking Glass Technologies Inc.
 //
@@ -79,10 +79,6 @@
 //
 //  #ifdef _MSC_VER
 //  template cMyTable;
-//
-//  Note that what you really appear to need to say is this:  -JF
-//  template cStrHashSet<sMyStruct *>;
-//
 //  #endif
 //
 // Iteration protocol for cHashSet
@@ -112,21 +108,6 @@ class cIStore;
 #include <hshstimp.h> // sad but needed include (toml 12-21-97)
 
 ///////////////////////////////////////////////////////////////////////////////
-
-// A hash set can be any size, but here's a selection of
-// standard ones
-
-enum eHashSetSizes
-{
-   kHS_Empty   = 1,
-   kHS_Tiny    = 17,
-   kHS_Small   = 53,
-   kHS_Medium  = 101,
-   kHS_Large   = 251,
-   kHS_Huge    = 997
-};
-
-///////////////////////////////////////////////////////////////////////////////
 //
 // CLASS: cHashSetBase
 //
@@ -137,7 +118,7 @@ enum eHashSetSizes
 class __CPPTOOLSAPI cHashSetBase
 {
 public:
-    enum { kDefaultSize = kHS_Medium };
+    enum { kDefaultSize = 101 };
 
     ///////////////////////////////////
     //
