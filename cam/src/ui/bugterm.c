@@ -300,8 +300,7 @@ void CreateBugTerminal(LGadRoot* root, Rect* bounds, ulong flags)
 
       LGadCreateTextBoxDesc(&bugterm.textbox,&bugterm.root,&tdesc);
       LGadTextBoxSetSpecialKeys(&bugterm.textbox,speckeys);
-      LGadBoxSetFlags(&bugterm.textbox,
-         LGadBoxFlags(&bugterm.textbox)|BOXFLAG_FLIP);
+      LGadBoxSetFlags(&bugterm.textbox, LGadBoxFlags(&bugterm.textbox)|BOXFLAG_FLIP);
    }
    {
       LGadTextBoxDesc tdesc;

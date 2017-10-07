@@ -99,7 +99,8 @@ LINK32=link.exe
 # PROP Ignore_Export_Lib 0
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /Zp1 /MT /W3 /Gm /Gi /ZI /Od /I "." /I ".\actreact" /I ".\ai" /I ".\csg" /I ".\editor" /I ".\engfeat" /I ".\framewrk" /I ".\motion" /I ".\object" /I ".\physics" /I ".\portal" /I ".\render" /I ".\script" /I ".\shock" /I ".\sim" /I ".\sound" /I ".\ui" /I ".\dark" /I "..\..\tech\h\win32" /I "..\..\cam\h" /I "..\..\tech\h" /I "..\..\3rdsrc\dx70\include" /I "..\..\3rdsrc\h" /I "..\..\tech\libsrc\lg" /I "..\..\tech\libsrc\lgalloc" /I "..\..\tech\libsrc\compapis" /I "..\..\tech\libsrc\comtools" /I "..\..\tech\libsrc\darkloop" /I "..\..\tech\libsrc\tagfile" /I "..\..\tech\libsrc\matrix" /I "..\..\tech\libsrc\cpptools" /I "..\..\tech\libsrc\sdesc" /I "..\..\tech\libsrc\mprintf" /I "..\..\tech\libsrc\r3d" /I "..\..\tech\libsrc\config" /I "..\..\tech\libsrc\md" /I "..\..\tech\libsrc\fix" /I "..\..\tech\libsrc\prof" /I "..\..\tech\libsrc\g2" /I "..\..\tech\libsrc\dev2d" /I "..\..\tech\libsrc\namedres" /I "..\..\tech\libsrc\res" /I "..\..\tech\libsrc\mp" /I "..\..\tech\libsrc\mm" /I "..\..\tech\libsrc\inputbnd" /I "..\..\tech\libsrc\ui" /I "..\..\tech\winsrc\input" /I "..\..\tech\libsrc\dstruct" /I "..\..\tech\libsrc\gadget" /I "..\..\tech\libsrc\font" /I "..\..\tech\libsrc\sndsrc" /I "..\..\tech\libsrc\sound" /I "..\..\tech\libsrc\lgd3d" /I "..\..\tech\libsrc\timer" /I "..\..\tech\libsrc\gfile" /I "..\..\tech\libsrc\recorder" /I "..\..\tech\libsrc\star" /I "..\..\tech\libsrc\dump" /I "..\..\tech\libsrc\random" /I "..\..\tech\libsrc\net" /I "..\..\tech\libsrc\rnd" /FI"pch.h" /FI"types.h" /D "DEBUG" /D "_DEBUG" /D "DBG_ON" /D "WARN_ON" /D "SPEW_ON" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D STRICT=1 /D "EDITOR" /D "PLAYTEST" /D "NEW_NETWORK_ENABLED" /D "THIEF" /D "RGB_LIGHTING" /D "SCHEMA_LOADING" /D "__MSVC" /Yu"pch.h" /FD /GZ /c
-# ADD CPP /nologo /Zp1 /MT /W3 /Gi /Zd /O2 /I "." /I ".\actreact" /I ".\ai" /I ".\csg" /I ".\editor" /I ".\engfeat" /I ".\framewrk" /I ".\motion" /I ".\object" /I ".\physics" /I ".\portal" /I ".\render" /I ".\script" /I ".\shock" /I ".\sim" /I ".\sound" /I ".\ui" /I ".\dark" /I "..\..\tech\h\win32" /I "..\..\cam\h" /I "..\..\tech\h" /I "..\..\3rdsrc\dx70\include" /I "..\..\3rdsrc\h" /I "..\..\tech\libsrc\lg" /I "..\..\tech\libsrc\lgalloc" /I "..\..\tech\libsrc\compapis" /I "..\..\tech\libsrc\comtools" /I "..\..\tech\libsrc\darkloop" /I "..\..\tech\libsrc\tagfile" /I "..\..\tech\libsrc\matrix" /I "..\..\tech\libsrc\cpptools" /I "..\..\tech\libsrc\sdesc" /I "..\..\tech\libsrc\mprintf" /I "..\..\tech\libsrc\r3d" /I "..\..\tech\libsrc\config" /I "..\..\tech\libsrc\md" /I "..\..\tech\libsrc\fix" /I "..\..\tech\libsrc\prof" /I "..\..\tech\libsrc\g2" /I "..\..\tech\libsrc\dev2d" /I "..\..\tech\libsrc\namedres" /I "..\..\tech\libsrc\res" /I "..\..\tech\libsrc\mp" /I "..\..\tech\libsrc\mm" /I "..\..\tech\libsrc\inputbnd" /I "..\..\tech\libsrc\ui" /I "..\..\tech\winsrc\input" /I "..\..\tech\libsrc\dstruct" /I "..\..\tech\libsrc\gadget" /I "..\..\tech\libsrc\font" /I "..\..\tech\libsrc\sndsrc" /I "..\..\tech\libsrc\sound" /I "..\..\tech\libsrc\lgd3d" /I "..\..\tech\libsrc\timer" /I "..\..\tech\libsrc\gfile" /I "..\..\tech\libsrc\recorder" /I "..\..\tech\libsrc\star" /I "..\..\tech\libsrc\dump" /I "..\..\tech\libsrc\random" /I "..\..\tech\libsrc\net" /I "..\..\tech\libsrc\rnd" /FI"pch.h" /FI"types.h" /D "RGB_LIGHTING" /D "BIG_LIGHTMAPS" /D "SOFTWARE_RGB" /D "SCHEMA_LOADING" /D "__MSVC" /D "REPORT" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D STRICT=1 /D "EDITOR" /D "PLAYTEST" /D "NEW_NETWORK_ENABLED" /D "THIEF" /D "PROPERTY_BLAME" /FR"Opt/dromed.bsc/" /Yu"pch.h" /FD /c
+# ADD CPP /nologo /Zp1 /MT /W3 /Gi /O2 /I "." /I ".\actreact" /I ".\ai" /I ".\csg" /I ".\editor" /I ".\engfeat" /I ".\framewrk" /I ".\motion" /I ".\object" /I ".\physics" /I ".\portal" /I ".\render" /I ".\script" /I ".\shock" /I ".\sim" /I ".\sound" /I ".\ui" /I ".\dark" /I "..\..\tech\h\win32" /I "..\..\cam\h" /I "..\..\tech\h" /I "..\..\3rdsrc\dx70\include" /I "..\..\3rdsrc\h" /I "..\..\tech\libsrc\lg" /I "..\..\tech\libsrc\lgalloc" /I "..\..\tech\libsrc\compapis" /I "..\..\tech\libsrc\comtools" /I "..\..\tech\libsrc\darkloop" /I "..\..\tech\libsrc\tagfile" /I "..\..\tech\libsrc\matrix" /I "..\..\tech\libsrc\cpptools" /I "..\..\tech\libsrc\sdesc" /I "..\..\tech\libsrc\mprintf" /I "..\..\tech\libsrc\r3d" /I "..\..\tech\libsrc\config" /I "..\..\tech\libsrc\md" /I "..\..\tech\libsrc\fix" /I "..\..\tech\libsrc\prof" /I "..\..\tech\libsrc\g2" /I "..\..\tech\libsrc\dev2d" /I "..\..\tech\libsrc\namedres" /I "..\..\tech\libsrc\res" /I "..\..\tech\libsrc\mp" /I "..\..\tech\libsrc\mm" /I "..\..\tech\libsrc\inputbnd" /I "..\..\tech\libsrc\ui" /I "..\..\tech\winsrc\input" /I "..\..\tech\libsrc\dstruct" /I "..\..\tech\libsrc\gadget" /I "..\..\tech\libsrc\font" /I "..\..\tech\libsrc\sndsrc" /I "..\..\tech\libsrc\sound" /I "..\..\tech\libsrc\lgd3d" /I "..\..\tech\libsrc\timer" /I "..\..\tech\libsrc\gfile" /I "..\..\tech\libsrc\recorder" /I "..\..\tech\libsrc\star" /I "..\..\tech\libsrc\dump" /I "..\..\tech\libsrc\random" /I "..\..\tech\libsrc\net" /I "..\..\tech\libsrc\rnd" /FI"pch.h" /FI"types.h" /D "RGB_LIGHTING" /D "BIG_LIGHTMAPS" /D "SOFTWARE_RGB" /D "SCHEMA_LOADING" /D "__MSVC" /D "REPORT" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D STRICT=1 /D "EDITOR" /D "PLAYTEST" /D "NEW_NETWORK_ENABLED" /D "THIEF" /D "PROPERTY_BLAME" /FR /Yu"pch.h" /FD /c
+# SUBTRACT CPP /Z<none>
 # ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /win32
 # ADD MTL /nologo /D "_DEBUG" /mktyplib203 /win32
 # ADD BASE RSC /l 0x409 /d "_DEBUG"
@@ -121,8 +122,8 @@ LINK32=link.exe
 # PROP BASE Target_Dir ""
 # PROP Use_MFC 0
 # PROP Use_Debug_Libraries 1
-# PROP Output_Dir "Dromed___Win32_Opt_No_Precompiled_Header"
-# PROP Intermediate_Dir "Dromed___Win32_Opt_No_Precompiled_Header"
+# PROP Output_Dir "Opt_No_Precompiled_Header"
+# PROP Intermediate_Dir "Opt_No_Precompiled_Header"
 # PROP Ignore_Export_Lib 0
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /Zp1 /MT /W3 /Gi /Zd /O2 /I "." /I ".\actreact" /I ".\ai" /I ".\csg" /I ".\editor" /I ".\engfeat" /I ".\framewrk" /I ".\motion" /I ".\object" /I ".\physics" /I ".\portal" /I ".\render" /I ".\script" /I ".\shock" /I ".\sim" /I ".\sound" /I ".\ui" /I ".\dark" /I "..\..\tech\h\win32" /I "..\..\cam\h" /I "..\..\tech\h" /I "..\..\3rdsrc\dx70\include" /I "..\..\3rdsrc\h" /I "..\..\tech\libsrc\lg" /I "..\..\tech\libsrc\lgalloc" /I "..\..\tech\libsrc\compapis" /I "..\..\tech\libsrc\comtools" /I "..\..\tech\libsrc\darkloop" /I "..\..\tech\libsrc\tagfile" /I "..\..\tech\libsrc\matrix" /I "..\..\tech\libsrc\cpptools" /I "..\..\tech\libsrc\sdesc" /I "..\..\tech\libsrc\mprintf" /I "..\..\tech\libsrc\r3d" /I "..\..\tech\libsrc\config" /I "..\..\tech\libsrc\md" /I "..\..\tech\libsrc\fix" /I "..\..\tech\libsrc\prof" /I "..\..\tech\libsrc\g2" /I "..\..\tech\libsrc\dev2d" /I "..\..\tech\libsrc\namedres" /I "..\..\tech\libsrc\res" /I "..\..\tech\libsrc\mp" /I "..\..\tech\libsrc\mm" /I "..\..\tech\libsrc\inputbnd" /I "..\..\tech\libsrc\ui" /I "..\..\tech\winsrc\input" /I "..\..\tech\libsrc\dstruct" /I "..\..\tech\libsrc\gadget" /I "..\..\tech\libsrc\font" /I "..\..\tech\libsrc\sndsrc" /I "..\..\tech\libsrc\sound" /I "..\..\tech\libsrc\lgd3d" /I "..\..\tech\libsrc\timer" /I "..\..\tech\libsrc\gfile" /I "..\..\tech\libsrc\recorder" /I "..\..\tech\libsrc\star" /I "..\..\tech\libsrc\dump" /I "..\..\tech\libsrc\random" /I "..\..\tech\libsrc\net" /I "..\..\tech\libsrc\rnd" /FI"pch.h" /FI"types.h" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D STRICT=1 /D "EDITOR" /D "PLAYTEST" /D "NEW_NETWORK_ENABLED" /D "THIEF" /D "RGB_LIGHTING" /D "BIG_LIGHTMAPS" /D "SOFTWARE_RGB" /D "SCHEMA_LOADING" /D "__MSVC" /D "REPORT" /Yu"pch.h" /FD /c
@@ -9655,13 +9656,14 @@ InputPath=.\portal\Ptsurf.asm
 InputName=Ptsurf
 
 "$(OutDir)\$(InputName).obj" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
-	echo /c /Cp /Zd /X /Ddbg_on /Dwarn_on /Dspew_on /DDBG_ON /DWARN_ON /DSPEW_ON /DCDECL_ASM=1 /D_MSC_VER=800 /D_WIN32=1 /DWIN32=1 /Fo$(OutDir)\$(InputName).obj /Ix:\prj\tech\inc /Ip:\a611\include /Ip:\v50\src\inc $(InputPath) > $(IntDir)\ml.rsp 
-	p:\a611\bin\ML @$(IntDir)\ml.rsp 
+	echo /c /Cp /Zd /X /Ddbg_on /Dwarn_on /Dspew_on /DDBG_ON /DWARN_ON /DSPEW_ON /DCDECL_ASM=1 /D_MSC_VER=800 /D_WIN32=1 /DWIN32=1 /Fo$(OutDir)\$(InputName).obj /I"..\..\tech\inc"  /I"..\..\tech\libsrc\lg" /I"..\..\tech\libsrc\lgalloc" /I"..\..\tech\libsrc\fix" /I"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Include" $(InputPath) > $(IntDir)\ml.rsp 
+	ml.exe @$(IntDir)\ml.rsp 
 	
 # End Custom Build
 
 !ELSEIF  "$(CFG)" == "Dromed - Win32 Opt"
 
+# PROP Ignore_Default_Tool 1
 # Begin Custom Build - Assembling $(InputPath)
 IntDir=.\Opt
 OutDir=.\Opt
@@ -9669,7 +9671,7 @@ InputPath=.\portal\Ptsurf.asm
 InputName=Ptsurf
 
 "$(OutDir)\$(InputName).obj" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
-	echo /c /Cp /Zd /X /Ddbg_on /Dwarn_on /Dspew_on /DDBG_ON /DWARN_ON /DSPEW_ON /DCDECL_ASM=1 /D_MSC_VER=800 /D_WIN32=1 /DWIN32=1 /Fo$(OutDir)\$(InputName).obj /Ix:\prj\tech\inc /Ip:\a611\include /Ip:\v50\src\inc $(InputPath) > $(IntDir)\ml.rsp 
+	echo /c /Cp /Zd /X /Ddbg_on /Dwarn_on /Dspew_on /DDBG_ON /DWARN_ON /DSPEW_ON /DCDECL_ASM=1 /D_MSC_VER=800 /D_WIN32=1 /DWIN32=1 /Fo$(OutDir)\$(InputName).obj /I"..\..\tech\inc"  /I"..\..\tech\libsrc\lg" /I"..\..\tech\libsrc\lgalloc" /I"..\..\tech\libsrc\fix" /I"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Include" $(InputPath) > $(IntDir)\ml.rsp 
 	ml.exe @$(IntDir)\ml.rsp 
 	
 # End Custom Build
@@ -9677,14 +9679,14 @@ InputName=Ptsurf
 !ELSEIF  "$(CFG)" == "Dromed - Win32 Opt No Precompiled Header"
 
 # Begin Custom Build - Assembling $(InputPath)
-IntDir=.\Dromed___Win32_Opt_No_Precompiled_Header
-OutDir=.\Dromed___Win32_Opt_No_Precompiled_Header
+IntDir=.\Opt_No_Precompiled_Header
+OutDir=.\Opt_No_Precompiled_Header
 InputPath=.\portal\Ptsurf.asm
 InputName=Ptsurf
 
 "$(OutDir)\$(InputName).obj" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
-	echo /c /Cp /Zd /X /Ddbg_on /Dwarn_on /Dspew_on /DDBG_ON /DWARN_ON /DSPEW_ON /DCDECL_ASM=1 /D_MSC_VER=800 /D_WIN32=1 /DWIN32=1 /Fo$(OutDir)\$(InputName).obj /Ix:\prj\tech\inc /Ip:\a611\include /Ip:\v50\src\inc $(InputPath) > $(IntDir)\ml.rsp 
-	ML.exe @$(IntDir)\ml.rsp 
+	echo /c /Cp /Zd /X /Ddbg_on /Dwarn_on /Dspew_on /DDBG_ON /DWARN_ON /DSPEW_ON /DCDECL_ASM=1 /D_MSC_VER=800 /D_WIN32=1 /DWIN32=1 /Fo$(OutDir)\$(InputName).obj /I"..\..\tech\inc"  /I"..\..\tech\libsrc\lg" /I"..\..\tech\libsrc\lgalloc" /I"..\..\tech\libsrc\fix" /I"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Include" $(InputPath) > $(IntDir)\ml.rsp 
+	ml.exe @$(IntDir)\ml.rsp 
 	
 # End Custom Build
 
@@ -9706,13 +9708,14 @@ InputPath=.\portal\Ptsurf16.asm
 InputName=Ptsurf16
 
 "$(OutDir)\$(InputName).obj" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
-	echo /c /Cp /Zd /X /Ddbg_on /Dwarn_on /Dspew_on /DDBG_ON /DWARN_ON /DSPEW_ON /DCDECL_ASM=1 /D_MSC_VER=800 /D_WIN32=1 /DWIN32=1 /Fo$(OutDir)\$(InputName).obj /Ix:\prj\tech\inc /Ip:\a611\include /Ip:\v50\src\inc $(InputPath) > $(IntDir)\ml.rsp 
-	p:\a611\bin\ML @$(IntDir)\ml.rsp 
+	echo /c /Cp /Zd /X /Ddbg_on /Dwarn_on /Dspew_on /DDBG_ON /DWARN_ON /DSPEW_ON /DCDECL_ASM=1 /D_MSC_VER=800 /D_WIN32=1 /DWIN32=1 /Fo$(OutDir)\$(InputName).obj /I"..\..\tech\inc"  /I"..\..\tech\libsrc\lg" /I"..\..\tech\libsrc\lgalloc" /I"..\..\tech\libsrc\fix" /I"..\..\tech\libsrc\dev2d" /I"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Include" $(InputPath) > $(IntDir)\ml.rsp 
+	ml.exe @$(IntDir)\ml.rsp 
 	
 # End Custom Build
 
 !ELSEIF  "$(CFG)" == "Dromed - Win32 Opt"
 
+# PROP Ignore_Default_Tool 1
 # Begin Custom Build - Assembling $(InputPath)
 IntDir=.\Opt
 OutDir=.\Opt
@@ -9720,7 +9723,7 @@ InputPath=.\portal\Ptsurf16.asm
 InputName=Ptsurf16
 
 "$(OutDir)\$(InputName).obj" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
-	echo /c /Cp /Zd /X /Ddbg_on /Dwarn_on /Dspew_on /DDBG_ON /DWARN_ON /DSPEW_ON /DCDECL_ASM=1 /D_MSC_VER=800 /D_WIN32=1 /DWIN32=1 /Fo$(OutDir)\$(InputName).obj /Ix:\prj\tech\inc /Ip:\a611\include /Ip:\v50\src\inc $(InputPath) > $(IntDir)\ml.rsp 
+	echo /c /Cp /Zd /X /Ddbg_on /Dwarn_on /Dspew_on /DDBG_ON /DWARN_ON /DSPEW_ON /DCDECL_ASM=1 /D_MSC_VER=800 /D_WIN32=1 /DWIN32=1 /Fo$(OutDir)\$(InputName).obj /I"..\..\tech\inc"  /I"..\..\tech\libsrc\lg" /I"..\..\tech\libsrc\lgalloc" /I"..\..\tech\libsrc\fix" /I"..\..\tech\libsrc\dev2d" /I"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Include" $(InputPath) > $(IntDir)\ml.rsp 
 	ml.exe @$(IntDir)\ml.rsp 
 	
 # End Custom Build
@@ -9728,14 +9731,14 @@ InputName=Ptsurf16
 !ELSEIF  "$(CFG)" == "Dromed - Win32 Opt No Precompiled Header"
 
 # Begin Custom Build - Assembling $(InputPath)
-IntDir=.\Dromed___Win32_Opt_No_Precompiled_Header
-OutDir=.\Dromed___Win32_Opt_No_Precompiled_Header
+IntDir=.\Opt_No_Precompiled_Header
+OutDir=.\Opt_No_Precompiled_Header
 InputPath=.\portal\Ptsurf16.asm
 InputName=Ptsurf16
 
 "$(OutDir)\$(InputName).obj" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
-	echo /c /Cp /Zd /X /Ddbg_on /Dwarn_on /Dspew_on /DDBG_ON /DWARN_ON /DSPEW_ON /DCDECL_ASM=1 /D_MSC_VER=800 /D_WIN32=1 /DWIN32=1 /Fo$(OutDir)\$(InputName).obj /Ix:\prj\tech\inc /Ip:\a611\include /Ip:\v50\src\inc $(InputPath) > $(IntDir)\ml.rsp 
-	ML.exe @$(IntDir)\ml.rsp 
+	echo /c /Cp /Zd /X /Ddbg_on /Dwarn_on /Dspew_on /DDBG_ON /DWARN_ON /DSPEW_ON /DCDECL_ASM=1 /D_MSC_VER=800 /D_WIN32=1 /DWIN32=1 /Fo$(OutDir)\$(InputName).obj /I"..\..\tech\inc"  /I"..\..\tech\libsrc\lg" /I"..\..\tech\libsrc\lgalloc" /I"..\..\tech\libsrc\fix" /I"..\..\tech\libsrc\dev2d" /I"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Include" $(InputPath) > $(IntDir)\ml.rsp 
+	ml.exe @$(IntDir)\ml.rsp 
 	
 # End Custom Build
 
@@ -13619,6 +13622,7 @@ SOURCE=.\win32\Inclex.c
 
 !ELSEIF  "$(CFG)" == "Dromed - Win32 Opt No Precompiled Header"
 
+# PROP Exclude_From_Build 1
 # ADD BASE CPP /w /W0 /D "YY_STATIC"
 # SUBTRACT BASE CPP /YX /Yc /Yu
 # ADD CPP /w /W0 /D "YY_STATIC"
@@ -13887,7 +13891,13 @@ SOURCE=.\dark.rc
 
 !IF  "$(CFG)" == "Dromed - Win32 Release"
 
+# ADD BASE RSC /l 0x816
+# ADD RSC /l 0x816 /i ".\framewrk"
+
 !ELSEIF  "$(CFG)" == "Dromed - Win32 Debug"
+
+# ADD BASE RSC /l 0x816
+# ADD RSC /l 0x816 /i ".\framewrk"
 
 !ELSEIF  "$(CFG)" == "Dromed - Win32 Opt"
 
@@ -13895,6 +13905,9 @@ SOURCE=.\dark.rc
 # ADD RSC /l 0x816 /i ".\framewrk"
 
 !ELSEIF  "$(CFG)" == "Dromed - Win32 Opt No Precompiled Header"
+
+# ADD BASE RSC /l 0x816
+# ADD RSC /l 0x816 /i ".\framewrk"
 
 !ENDIF 
 

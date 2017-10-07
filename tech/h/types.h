@@ -12,6 +12,10 @@
 #define __TYPES_H
 
 //#define _MSC_VER 0x01200
+#ifndef _MSC_VER
+#define _MSC_VER 0x0800
+#endif
+
 #define _MFC_VER 0x0600
 //#define WIN32
 //#define _WIN32
