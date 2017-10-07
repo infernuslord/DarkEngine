@@ -41,7 +41,7 @@ RSC=rc.exe
 # PROP Intermediate_Dir "..\_Bins\Release"
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /W3 /GX /O2 /D "NDEBUG" /D "_MBCS" /D "_LIB" /YX /FD /c
-# ADD CPP /nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR /YX"..\..\types.h" /FI "..\..\h\types.h" /c
+# ADD CPP /nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "SHIP" /FR /YX"..\..\types.h" /FI "..\..\h\types.h" /c
 # SUBTRACT CPP /X /u
 # ADD BASE RSC /l 0x816 /d "NDEBUG"
 # ADD RSC /l 0x809 /d "NDEBUG"
@@ -65,7 +65,7 @@ LIB32=link.exe -lib
 # PROP Intermediate_Dir "..\_Bins\Debug"
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_WIN32" /D "_WINDOWS" /D "_DEBUG" /D "_MBCS" /D "_LIB" /YX /FD /GZ /c
-# ADD CPP /nologo /Zp1 /ML /W3 /Gm /GX /ZI /Od /I ".\\" /I "..\..\h" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lg" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I ".\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_WINDOWS" /YX"..\..\types.h" /FD /FI "..\..\h\types.h" /GZ /c
+# ADD CPP /nologo /Zp1 /ML /W3 /Gm /GX /ZI /Od /I ".\\" /I "..\..\h" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lg" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I ".\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_WINDOWS" /YX"..\..\types.h" /FD /FI /GZ "..\..\h\types.h" /c
 # ADD BASE RSC /l 0x816 /d "_DEBUG"
 # ADD RSC /l 0x816 /d "_DEBUG"
 BSC32=bscmake.exe
@@ -87,6 +87,53 @@ LIB32=link.exe -lib
 # Begin Source File
 
 SOURCE=.\drawelem.c
+DEP_CPP_DRAWE=\
+	"..\..\h\lgerror.h"\
+	"..\..\h\prikind.h"\
+	"..\..\winsrc\input\mouse.h"\
+	"..\compapis\2d.h"\
+	"..\comtools\comtools.h"\
+	"..\config\cfgdbg.h"\
+	"..\dev2d\dev2d.h"\
+	"..\dstruct\array.h"\
+	"..\dstruct\rect.h"\
+	"..\fix\fix.h"\
+	"..\font\font.h"\
+	"..\g2\g2.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lg\lgsprntf.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	"..\namedres\datasrc.h"\
+	"..\res\lzw.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\ui\cursors.h"\
+	"..\ui\region.h"\
+	"..\ui\slab.h"\
+	".\drawelem.h"\
+	".\gadbase.h"\
+	".\gadbox.h"\
+	".\gadbutt.h"\
+	".\gadget.h"\
+	".\gadmenu.h"\
+	".\gadscale.h"\
+	".\guistyle.h"\
+	".\lgadover.h"\
+	".\util2d.h"\
+	".\utilcomp.h"\
+	
+NODEP_CPP_DRAWE=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "gadget - Win32 Release"
 
@@ -98,6 +145,52 @@ SOURCE=.\drawelem.c
 # Begin Source File
 
 SOURCE=.\gadblist.c
+DEP_CPP_GADBL=\
+	"..\..\h\lgerror.h"\
+	"..\..\h\prikind.h"\
+	"..\..\winsrc\input\mouse.h"\
+	"..\compapis\2d.h"\
+	"..\comtools\comtools.h"\
+	"..\dev2d\dev2d.h"\
+	"..\dstruct\array.h"\
+	"..\dstruct\rect.h"\
+	"..\fix\fix.h"\
+	"..\font\font.h"\
+	"..\g2\g2.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	"..\namedres\datasrc.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\ui\cursors.h"\
+	"..\ui\event.h"\
+	"..\ui\region.h"\
+	"..\ui\slab.h"\
+	".\drawelem.h"\
+	".\gadbase.h"\
+	".\gadblist.h"\
+	".\gadbox.h"\
+	".\gadbutt.h"\
+	".\gadget.h"\
+	".\gadmenu.h"\
+	".\gadscale.h"\
+	".\guistyle.h"\
+	".\lgadover.h"\
+	".\uibutton.h"\
+	".\uigadget.h"\
+	
+NODEP_CPP_GADBL=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "gadget - Win32 Release"
 
@@ -109,6 +202,71 @@ SOURCE=.\gadblist.c
 # Begin Source File
 
 SOURCE=.\gadget.c
+DEP_CPP_GADGE=\
+	"..\..\h\_dstruct.h"\
+	"..\..\h\fixreal.h"\
+	"..\..\h\lgerror.h"\
+	"..\..\h\prikind.h"\
+	"..\..\winsrc\input\kb.h"\
+	"..\..\winsrc\input\kbcook.h"\
+	"..\..\winsrc\input\keydefs.h"\
+	"..\..\winsrc\input\mouse.h"\
+	"..\compapis\2d.h"\
+	"..\compapis\appagg.h"\
+	"..\compapis\dispapi.h"\
+	"..\compapis\dispguid.h"\
+	"..\comtools\comtools.h"\
+	"..\config\cfg.h"\
+	"..\config\cfgdbg.h"\
+	"..\config\config.h"\
+	"..\dev2d\dev2d.h"\
+	"..\dstruct\array.h"\
+	"..\dstruct\hash.h"\
+	"..\dstruct\rect.h"\
+	"..\fix\altfix.h"\
+	"..\fix\fix.h"\
+	"..\font\font.h"\
+	"..\g2\g2.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lg\lgsprntf.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	"..\namedres\datasrc.h"\
+	"..\res\lzw.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\ui\cursors.h"\
+	"..\ui\event.h"\
+	"..\ui\hotkey.h"\
+	"..\ui\region.h"\
+	"..\ui\slab.h"\
+	".\drawelem.h"\
+	".\gadbase.h"\
+	".\gadbox.h"\
+	".\gadbutt.h"\
+	".\gadget.h"\
+	".\gadgint.h"\
+	".\gadmenu.h"\
+	".\gadscale.h"\
+	".\gcompose.h"\
+	".\guistyle.h"\
+	".\lgadover.h"\
+	".\uibutton.h"\
+	".\uigadget.h"\
+	".\util2d.h"\
+	".\utilcomp.h"\
+	
+NODEP_CPP_GADGE=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "gadget - Win32 Release"
 
@@ -120,6 +278,53 @@ SOURCE=.\gadget.c
 # Begin Source File
 
 SOURCE=.\gadtext.c
+DEP_CPP_GADTE=\
+	"..\..\h\lgerror.h"\
+	"..\..\h\prikind.h"\
+	"..\..\winsrc\input\mouse.h"\
+	"..\compapis\2d.h"\
+	"..\comtools\comtools.h"\
+	"..\dev2d\dev2d.h"\
+	"..\dstruct\array.h"\
+	"..\dstruct\rect.h"\
+	"..\fix\fix.h"\
+	"..\font\font.h"\
+	"..\g2\g2.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	"..\namedres\datasrc.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\ui\cursors.h"\
+	"..\ui\event.h"\
+	"..\ui\region.h"\
+	"..\ui\slab.h"\
+	".\drawelem.h"\
+	".\gadbase.h"\
+	".\gadbox.h"\
+	".\gadbutt.h"\
+	".\gadget.h"\
+	".\gadmenu.h"\
+	".\gadscale.h"\
+	".\gadtext.h"\
+	".\guistyle.h"\
+	".\lgadover.h"\
+	".\uibutton.h"\
+	".\uigadget.h"\
+	".\uitexted.h"\
+	
+NODEP_CPP_GADTE=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "gadget - Win32 Release"
 
@@ -131,6 +336,40 @@ SOURCE=.\gadtext.c
 # Begin Source File
 
 SOURCE=.\gcompose.c
+DEP_CPP_GCOMP=\
+	"..\..\h\2dres.h"\
+	"..\..\h\lgerror.h"\
+	"..\..\h\prikind.h"\
+	"..\compapis\2d.h"\
+	"..\compapis\appagg.h"\
+	"..\compapis\dispapi.h"\
+	"..\compapis\dispguid.h"\
+	"..\comtools\comtools.h"\
+	"..\dev2d\dev2d.h"\
+	"..\dstruct\rect.h"\
+	"..\fix\fix.h"\
+	"..\font\font.h"\
+	"..\g2\g2.h"\
+	"..\gfile\gfile.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	"..\recorder\fdesc.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	".\gcompose.h"\
+	
+NODEP_CPP_GCOMP=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "gadget - Win32 Release"
 
@@ -142,6 +381,36 @@ SOURCE=.\gcompose.c
 # Begin Source File
 
 SOURCE=.\guistyle.c
+DEP_CPP_GUIST=\
+	"..\..\h\2dres.h"\
+	"..\..\h\prikind.h"\
+	"..\compapis\2d.h"\
+	"..\comtools\comtools.h"\
+	"..\dev2d\dev2d.h"\
+	"..\dstruct\rect.h"\
+	"..\fix\fix.h"\
+	"..\font\font.h"\
+	"..\g2\g2.h"\
+	"..\gfile\gfile.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	"..\recorder\fdesc.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	".\guistyle.h"\
+	
+NODEP_CPP_GUIST=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "gadget - Win32 Release"
 
@@ -153,6 +422,60 @@ SOURCE=.\guistyle.c
 # Begin Source File
 
 SOURCE=.\uibutton.c
+DEP_CPP_UIBUT=\
+	"..\..\h\2dres.h"\
+	"..\..\h\lgerror.h"\
+	"..\..\h\prikind.h"\
+	"..\..\winsrc\input\kb.h"\
+	"..\..\winsrc\input\kbcook.h"\
+	"..\..\winsrc\input\keydefs.h"\
+	"..\..\winsrc\input\mouse.h"\
+	"..\compapis\2d.h"\
+	"..\comtools\comtools.h"\
+	"..\config\cfgdbg.h"\
+	"..\dev2d\dev2d.h"\
+	"..\dstruct\array.h"\
+	"..\dstruct\rect.h"\
+	"..\fix\fix.h"\
+	"..\font\font.h"\
+	"..\g2\g2.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	"..\mprintf\mprintf.h"\
+	"..\namedres\datasrc.h"\
+	"..\recorder\fdesc.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\ui\cursors.h"\
+	"..\ui\event.h"\
+	"..\ui\region.h"\
+	"..\ui\slab.h"\
+	".\drawelem.h"\
+	".\gadbase.h"\
+	".\gadbox.h"\
+	".\gadbutt.h"\
+	".\gadget.h"\
+	".\gadgint.h"\
+	".\gadmenu.h"\
+	".\gadscale.h"\
+	".\gcompose.h"\
+	".\guistyle.h"\
+	".\lgadover.h"\
+	".\uibutton.h"\
+	".\uigadget.h"\
+	
+NODEP_CPP_UIBUT=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "gadget - Win32 Release"
 
@@ -164,6 +487,60 @@ SOURCE=.\uibutton.c
 # Begin Source File
 
 SOURCE=.\uitexted.c
+DEP_CPP_UITEX=\
+	"..\..\h\lgerror.h"\
+	"..\..\h\prikind.h"\
+	"..\..\winsrc\input\kb.h"\
+	"..\..\winsrc\input\kbcook.h"\
+	"..\..\winsrc\input\keydefs.h"\
+	"..\..\winsrc\input\mouse.h"\
+	"..\compapis\2d.h"\
+	"..\comtools\comtools.h"\
+	"..\config\cfgdbg.h"\
+	"..\dev2d\dev2d.h"\
+	"..\dstruct\array.h"\
+	"..\dstruct\rect.h"\
+	"..\fix\fix.h"\
+	"..\font\font.h"\
+	"..\g2\g2.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	"..\mprintf\mprintf.h"\
+	"..\namedres\datasrc.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\ui\cursors.h"\
+	"..\ui\event.h"\
+	"..\ui\region.h"\
+	"..\ui\slab.h"\
+	".\drawelem.h"\
+	".\gadbase.h"\
+	".\gadbox.h"\
+	".\gadbutt.h"\
+	".\gadget.h"\
+	".\gadgint.h"\
+	".\gadmenu.h"\
+	".\gadscale.h"\
+	".\gadtext.h"\
+	".\gcompose.h"\
+	".\guistyle.h"\
+	".\lgadover.h"\
+	".\uibutton.h"\
+	".\uigadget.h"\
+	".\uitexted.h"\
+	
+NODEP_CPP_UITEX=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "gadget - Win32 Release"
 
@@ -175,6 +552,57 @@ SOURCE=.\uitexted.c
 # Begin Source File
 
 SOURCE=.\util2d.c
+DEP_CPP_UTIL2=\
+	"..\..\h\2dres.h"\
+	"..\..\h\lgerror.h"\
+	"..\..\h\prikind.h"\
+	"..\..\winsrc\input\mouse.h"\
+	"..\compapis\2d.h"\
+	"..\compapis\appagg.h"\
+	"..\compapis\dispapi.h"\
+	"..\compapis\dispguid.h"\
+	"..\comtools\comtools.h"\
+	"..\config\cfgdbg.h"\
+	"..\dev2d\dev2d.h"\
+	"..\dstruct\array.h"\
+	"..\dstruct\rect.h"\
+	"..\fix\fix.h"\
+	"..\font\font.h"\
+	"..\g2\g2.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	"..\namedres\datasrc.h"\
+	"..\recorder\fdesc.h"\
+	"..\res\lzw.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\ui\cursors.h"\
+	"..\ui\region.h"\
+	"..\ui\slab.h"\
+	".\drawelem.h"\
+	".\gadbase.h"\
+	".\gadbox.h"\
+	".\gadbutt.h"\
+	".\gadget.h"\
+	".\gadmenu.h"\
+	".\gadscale.h"\
+	".\guistyle.h"\
+	".\lgadover.h"\
+	".\util2d.h"\
+	".\utilcomp.h"\
+	
+NODEP_CPP_UTIL2=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "gadget - Win32 Release"
 

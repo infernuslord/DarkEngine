@@ -6,15 +6,17 @@
 --------------------Configuration: g2 - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP867F.tmp" with contents
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP99DC.tmp" with contents
 [
-/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/g2.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "SHIP" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/g2.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\area.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\blend.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\cc816.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\chkply.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\clip.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\clplin.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\co88.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\cominit.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\dlh816.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\drytmap.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\f16fl8ll.c"
@@ -27,6 +29,7 @@ Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP867F.tmp" with 
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8fl8s.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8l.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8lin.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8lm.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8lo2wc.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8nnic.c"
@@ -63,6 +66,7 @@ Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP867F.tmp" with 
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\golftmap.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\grtm.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\grwater.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\init.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\lh816.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\lht816.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\lmap.c"
@@ -83,6 +87,7 @@ Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP867F.tmp" with 
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\setdrv.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\shadhack.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\shadtmap.c"
+"C:\Sources\DarkEngine\prj\tech\libsrc\g2\svgainit.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\t816oc.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\t88oc.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\tf.c"
@@ -92,8 +97,8 @@ Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP867F.tmp" with 
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\trigrad.c"
 "C:\Sources\DarkEngine\prj\tech\libsrc\g2\trirast.c"
 ]
-Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP867F.tmp" 
-Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP8680.tmp" with contents
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP99DC.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP99ED.tmp" with contents
 [
 /nologo /out:"..\_Libs\Release\g2.lib" 
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\area.obj
@@ -184,10 +189,11 @@ Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP8680.tmp" with 
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\trigrad.obj
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\trirast.obj
 ]
-Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP8680.tmp"
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP99ED.tmp"
 <h3>Output Window</h3>
 Compiling...
 area.c
+blend.c
 cc816.c
 chkply.c
 clip.c
@@ -195,6 +201,7 @@ C:\Sources\DarkEngine\prj\tech\libsrc\g2\clip.c(8) : warning C4005: 'CLIP_MASK' 
         C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\wingdi.h(1180) : see previous definition of 'CLIP_MASK'
 clplin.c
 co88.c
+cominit.c
 dlh816.c
 drytmap.c
 f16fl8ll.c
@@ -354,6 +361,7 @@ C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(105) : error C2039: 'dux' : is 
 C:\Sources\DarkEngine\prj\tech\libsrc\g2\fl8il.c(106) : error C2039: 'dvx' : is not a member of 'g2s_tmap_info'
         .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
 fl8l.c
+fl8lin.c
 fl8lm.c
 fl8lo2wc.c
 fl8nnic.c
@@ -580,6 +588,7 @@ gensply.c
 golftmap.c
 grtm.c
 grwater.c
+init.c
 lh816.c
 lht816.c
 lmap.c
@@ -698,6 +707,7 @@ scshell.c
 setdrv.c
 shadhack.c
 shadtmap.c
+svgainit.c
 t816oc.c
 t88oc.c
 tf.c

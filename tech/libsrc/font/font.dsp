@@ -41,7 +41,7 @@ RSC=rc.exe
 # PROP Intermediate_Dir "..\_Bins\Release"
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /W3 /GX /O2 /D "NDEBUG" /D "_MBCS" /D "_LIB" /YX /FD /c
-# ADD CPP /nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR /YX"..\..\types.h" /FI "..\..\h\types.h" /c
+# ADD CPP /nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "SHIP" /FR /YX"..\..\types.h" /FI "..\..\h\types.h" /c
 # SUBTRACT CPP /X /u
 # ADD BASE RSC /l 0x816 /d "NDEBUG"
 # ADD RSC /l 0x809 /d "NDEBUG"
@@ -65,7 +65,7 @@ LIB32=link.exe -lib
 # PROP Intermediate_Dir "..\_Bins\Debug"
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_WIN32" /D "_WINDOWS" /D "_DEBUG" /D "_MBCS" /D "_LIB" /YX /FD /GZ /c
-# ADD CPP /nologo /Zp1 /ML /W3 /Gm /GX /ZI /Od /I ".\\" /I "..\..\h" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lg" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I ".\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_WINDOWS" /YX"..\..\types.h" /FD /FI "..\..\h\types.h" /GZ /c
+# ADD CPP /nologo /Zp1 /ML /W3 /Gm /GX /ZI /Od /I ".\\" /I "..\..\h" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lg" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I ".\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_WINDOWS" /YX"..\..\types.h" /FD /FI /GZ "..\..\h\types.h" /c
 # ADD BASE RSC /l 0x816 /d "_DEBUG"
 # ADD RSC /l 0x816 /d "_DEBUG"
 BSC32=bscmake.exe
@@ -87,6 +87,13 @@ LIB32=link.exe -lib
 # Begin Source File
 
 SOURCE=.\chr.c
+DEP_CPP_CHR_C=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\fonts.h"\
+	
 
 !IF  "$(CFG)" == "font - Win32 Release"
 
@@ -98,6 +105,14 @@ SOURCE=.\chr.c
 # Begin Source File
 
 SOURCE=.\chrclr.c
+DEP_CPP_CHRCL=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\chrsiz.h"\
+	".\fonts.h"\
+	
 
 !IF  "$(CFG)" == "font - Win32 Release"
 
@@ -109,6 +124,13 @@ SOURCE=.\chrclr.c
 # Begin Source File
 
 SOURCE=.\chrsiz.c
+DEP_CPP_CHRSI=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\fonts.h"\
+	
 
 !IF  "$(CFG)" == "font - Win32 Release"
 
@@ -120,6 +142,12 @@ SOURCE=.\chrsiz.c
 # Begin Source File
 
 SOURCE=.\f16fl8t.c
+DEP_CPP_F16FL=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	
 
 !IF  "$(CFG)" == "font - Win32 Release"
 
@@ -131,6 +159,16 @@ SOURCE=.\f16fl8t.c
 # Begin Source File
 
 SOURCE=.\ftest.c
+DEP_CPP_FTEST=\
+	"..\..\h\grtb.h"\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\g2\g2.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	"..\mprintf\mprintf.h"\
+	".\font.h"\
+	
 
 !IF  "$(CFG)" == "font - Win32 Release"
 
@@ -142,6 +180,13 @@ SOURCE=.\ftest.c
 # Begin Source File
 
 SOURCE=.\setup.c
+DEP_CPP_SETUP=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\fonts.h"\
+	
 
 !IF  "$(CFG)" == "font - Win32 Release"
 
@@ -153,6 +198,14 @@ SOURCE=.\setup.c
 # Begin Source File
 
 SOURCE=.\str.c
+DEP_CPP_STR_C=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\chr.h"\
+	".\fonts.h"\
+	
 
 !IF  "$(CFG)" == "font - Win32 Release"
 
@@ -164,6 +217,14 @@ SOURCE=.\str.c
 # Begin Source File
 
 SOURCE=.\strclr.c
+DEP_CPP_STRCL=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\fonts.h"\
+	".\strsiz.h"\
+	
 
 !IF  "$(CFG)" == "font - Win32 Release"
 
@@ -175,6 +236,16 @@ SOURCE=.\strclr.c
 # Begin Source File
 
 SOURCE=.\strscl.c
+DEP_CPP_STRSC=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\g2\g2.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\chr.h"\
+	".\fonts.h"\
+	".\strsiz.h"\
+	
 
 !IF  "$(CFG)" == "font - Win32 Release"
 
@@ -186,6 +257,14 @@ SOURCE=.\strscl.c
 # Begin Source File
 
 SOURCE=.\strsiz.c
+DEP_CPP_STRSI=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\chr.h"\
+	".\fonts.h"\
+	
 
 !IF  "$(CFG)" == "font - Win32 Release"
 
@@ -197,6 +276,14 @@ SOURCE=.\strsiz.c
 # Begin Source File
 
 SOURCE=.\strwrap.c
+DEP_CPP_STRWR=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\chr.h"\
+	".\fonts.h"\
+	
 
 !IF  "$(CFG)" == "font - Win32 Release"
 

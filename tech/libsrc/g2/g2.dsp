@@ -41,7 +41,7 @@ RSC=rc.exe
 # PROP Intermediate_Dir "..\_Bins\Release"
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /W3 /GX /O2 /D "NDEBUG" /D "_MBCS" /D "_LIB" /YX /FD /c
-# ADD CPP /nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR /YX"..\..\types.h" /FI "..\..\h\types.h" /c
+# ADD CPP /nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "SHIP" /FR /YX"..\..\types.h" /FI "..\..\h\types.h" /c
 # SUBTRACT CPP /X /u
 # ADD BASE RSC /l 0x816 /d "NDEBUG"
 # ADD RSC /l 0x809 /d "NDEBUG"
@@ -65,7 +65,7 @@ LIB32=link.exe -lib
 # PROP Intermediate_Dir "..\_Bins\Debug"
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_WIN32" /D "_WINDOWS" /D "_DEBUG" /D "_MBCS" /D "_LIB" /YX /FD /GZ /c
-# ADD CPP /nologo /Zp1 /ML /W3 /Gm /GX /ZI /Od /I ".\\" /I "..\..\h" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lg" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I ".\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_WINDOWS" /YX"..\..\types.h" /FD /FI "..\..\h\types.h" /GZ /c
+# ADD CPP /nologo /Zp1 /ML /W3 /Gm /GX /ZI /Od /I ".\\" /I "..\..\h" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lg" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I ".\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_WINDOWS" /YX"..\..\types.h" /FD /FI /GZ "..\..\h\types.h" /c
 # ADD BASE RSC /l 0x816 /d "_DEBUG"
 # ADD RSC /l 0x816 /d "_DEBUG"
 BSC32=bscmake.exe
@@ -87,6 +87,18 @@ LIB32=link.exe -lib
 # Begin Source File
 
 SOURCE=.\area.c
+DEP_CPP_AREA_=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\plyshell.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -98,6 +110,13 @@ SOURCE=.\area.c
 # Begin Source File
 
 SOURCE=.\blend.c
+DEP_CPP_BLEND=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\blncon.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -109,6 +128,19 @@ SOURCE=.\blend.c
 # Begin Source File
 
 SOURCE=.\cc816.c
+DEP_CPP_CC816=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\scshell.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -120,6 +152,11 @@ SOURCE=.\cc816.c
 # Begin Source File
 
 SOURCE=.\chkply.c
+DEP_CPP_CHKPL=\
+	"..\fix\fix.h"\
+	".\plytyp.h"\
+	".\polyint.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -131,6 +168,23 @@ SOURCE=.\chkply.c
 # Begin Source File
 
 SOURCE=.\clip.c
+DEP_CPP_CLIP_=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lglog.h"\
+	"..\lg\tmpalloc.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\buffer.h"\
+	".\g2clip.h"\
+	".\g2spoint.h"\
+	".\plytyp.h"\
+	
+NODEP_CPP_CLIP_=\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -142,6 +196,15 @@ SOURCE=.\clip.c
 # Begin Source File
 
 SOURCE=.\clplin.c
+DEP_CPP_CLPLI=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\lftype.h"\
+	".\mathmac.h"\
+	".\plytyp.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -153,6 +216,20 @@ SOURCE=.\clplin.c
 # Begin Source File
 
 SOURCE=.\co88.c
+DEP_CPP_CO88_=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\g2tm.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -164,6 +241,12 @@ SOURCE=.\co88.c
 # Begin Source File
 
 SOURCE=.\cominit.c
+DEP_CPP_COMIN=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -175,6 +258,22 @@ SOURCE=.\cominit.c
 # Begin Source File
 
 SOURCE=.\dlh816.c
+DEP_CPP_DLH81=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\g2tm.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\plyshell.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	".\trirast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -186,6 +285,19 @@ SOURCE=.\dlh816.c
 # Begin Source File
 
 SOURCE=.\drytmap.c
+DEP_CPP_DRYTM=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\plyshell.h"\
+	".\trirast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -197,6 +309,25 @@ SOURCE=.\drytmap.c
 # Begin Source File
 
 SOURCE=.\f16fl8ll.c
+DEP_CPP_F16FL=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\plytyp.h"\
+	".\tmapd.h"\
+	".\tmapf.h"\
+	".\tmapfcn.h"\
+	".\tmaps.h"\
+	
+NODEP_CPP_F16FL=\
+	"..\lg\dbgmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -208,6 +339,19 @@ SOURCE=.\f16fl8ll.c
 # Begin Source File
 
 SOURCE=.\f16fl8s.c
+DEP_CPP_F16FL8=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\ilfunc.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\scale.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -219,6 +363,19 @@ SOURCE=.\f16fl8s.c
 # Begin Source File
 
 SOURCE=.\f16lm.c
+DEP_CPP_F16LM=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lglog.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\tftype.h"\
+	
+NODEP_CPP_F16LM=\
+	"..\lg\dbgmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -230,6 +387,14 @@ SOURCE=.\f16lm.c
 # Begin Source File
 
 SOURCE=.\f16pm.c
+DEP_CPP_F16PM=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lglog.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -241,6 +406,13 @@ SOURCE=.\f16pm.c
 # Begin Source File
 
 SOURCE=.\f16s.c
+DEP_CPP_F16S_=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\sftype.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -252,6 +424,24 @@ SOURCE=.\f16s.c
 # Begin Source File
 
 SOURCE=.\fl8fl8l.c
+DEP_CPP_FL8FL=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\plytyp.h"\
+	".\tmapd.h"\
+	".\tmapf.h"\
+	".\tmapfcn.h"\
+	".\tmaps.h"\
+	
+NODEP_CPP_FL8FL=\
+	"..\lg\dbgmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -263,6 +453,25 @@ SOURCE=.\fl8fl8l.c
 # Begin Source File
 
 SOURCE=.\fl8fl8ll.c
+DEP_CPP_FL8FL8=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\plytyp.h"\
+	".\tmapd.h"\
+	".\tmapf.h"\
+	".\tmapfcn.h"\
+	".\tmaps.h"\
+	
+NODEP_CPP_FL8FL8=\
+	"..\lg\dbgmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -274,6 +483,17 @@ SOURCE=.\fl8fl8ll.c
 # Begin Source File
 
 SOURCE=.\fl8fl8s.c
+DEP_CPP_FL8FL8S=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\scshell.h"\
+	".\trirast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -285,6 +505,17 @@ SOURCE=.\fl8fl8s.c
 # Begin Source File
 
 SOURCE=.\fl8il.c
+DEP_CPP_FL8IL=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -296,6 +527,14 @@ SOURCE=.\fl8il.c
 # Begin Source File
 
 SOURCE=.\fl8l.c
+DEP_CPP_FL8L_=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\lftype.h"\
+	".\plytyp.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -307,6 +546,15 @@ SOURCE=.\fl8l.c
 # Begin Source File
 
 SOURCE=.\fl8lin.c
+DEP_CPP_FL8LI=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\fl8lin.h"\
+	".\mathmac.h"\
+	".\plytyp.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -318,6 +566,15 @@ SOURCE=.\fl8lin.c
 # Begin Source File
 
 SOURCE=.\fl8lm.c
+DEP_CPP_FL8LM=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lglog.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\tftype.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -351,6 +608,9 @@ SOURCE=.\fl8nnic.c
 # Begin Source File
 
 SOURCE=.\fl8o2wic.c
+DEP_CPP_FL8O2=\
+	"..\fix\fix.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -362,6 +622,14 @@ SOURCE=.\fl8o2wic.c
 # Begin Source File
 
 SOURCE=.\fl8pm.c
+DEP_CPP_FL8PM=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lglog.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -373,6 +641,13 @@ SOURCE=.\fl8pm.c
 # Begin Source File
 
 SOURCE=.\fl8s.c
+DEP_CPP_FL8S_=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\sftype.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -384,6 +659,18 @@ SOURCE=.\fl8s.c
 # Begin Source File
 
 SOURCE=.\fl8sply.c
+DEP_CPP_FL8SP=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -395,6 +682,13 @@ SOURCE=.\fl8sply.c
 # Begin Source File
 
 SOURCE=.\g2circ.c
+DEP_CPP_G2CIR=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\grcurv.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -417,6 +711,21 @@ SOURCE=.\g2d.c
 # Begin Source File
 
 SOURCE=.\g2el.c
+DEP_CPP_G2EL_=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\tmpalloc.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\buffer.h"\
+	".\plytyp.h"\
+	".\rastel.h"\
+	".\raster.h"\
+	
+NODEP_CPP_G2EL_=\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -428,6 +737,20 @@ SOURCE=.\g2el.c
 # Begin Source File
 
 SOURCE=.\g2makewr.c
+DEP_CPP_G2MAK=\
+	"..\lg\codewrit.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	
+NODEP_CPP_G2MAK=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -439,6 +762,21 @@ SOURCE=.\g2makewr.c
 # Begin Source File
 
 SOURCE=.\g2ov.c
+DEP_CPP_G2OV_=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\tmpalloc.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\buffer.h"\
+	".\plytyp.h"\
+	".\rastel.h"\
+	".\raster.h"\
+	
+NODEP_CPP_G2OV_=\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -450,6 +788,25 @@ SOURCE=.\g2ov.c
 # Begin Source File
 
 SOURCE=.\g2poly.c
+DEP_CPP_G2POL=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\tmpalloc.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\buffer.h"\
+	".\g2clip.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\grply.h"\
+	".\icanvas.h"\
+	".\pftype.h"\
+	".\plytyp.h"\
+	
+NODEP_CPP_G2POL=\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -461,6 +818,21 @@ SOURCE=.\g2poly.c
 # Begin Source File
 
 SOURCE=.\g2ring.c
+DEP_CPP_G2RIN=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\tmpalloc.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\buffer.h"\
+	".\plytyp.h"\
+	".\rastel.h"\
+	".\raster.h"\
+	
+NODEP_CPP_G2RIN=\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -472,6 +844,14 @@ SOURCE=.\g2ring.c
 # Begin Source File
 
 SOURCE=.\g2rot.c
+DEP_CPP_G2ROT=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\grtm.h"\
+	".\plytyp.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -483,6 +863,22 @@ SOURCE=.\g2rot.c
 # Begin Source File
 
 SOURCE=.\g2tm.c
+DEP_CPP_G2TM_=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\tmpalloc.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\buffer.h"\
+	".\g2clip.h"\
+	".\g2spoint.h"\
+	".\grtm.h"\
+	".\plytyp.h"\
+	
+NODEP_CPP_G2TM_=\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -494,6 +890,16 @@ SOURCE=.\g2tm.c
 # Begin Source File
 
 SOURCE=.\gen16il.c
+DEP_CPP_GEN16=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -505,6 +911,16 @@ SOURCE=.\gen16il.c
 # Begin Source File
 
 SOURCE=.\gen8il.c
+DEP_CPP_GEN8I=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -516,6 +932,19 @@ SOURCE=.\gen8il.c
 # Begin Source File
 
 SOURCE=.\genf16l.c
+DEP_CPP_GENF1=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	".\trirast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -527,6 +956,19 @@ SOURCE=.\genf16l.c
 # Begin Source File
 
 SOURCE=.\genf16s.c
+DEP_CPP_GENF16=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\ilfunc.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\scale.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -538,6 +980,19 @@ SOURCE=.\genf16s.c
 # Begin Source File
 
 SOURCE=.\genfl8l.c
+DEP_CPP_GENFL=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	".\trirast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -549,6 +1004,16 @@ SOURCE=.\genfl8l.c
 # Begin Source File
 
 SOURCE=.\genfl8s.c
+DEP_CPP_GENFL8=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\scshell.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -560,6 +1025,17 @@ SOURCE=.\genfl8s.c
 # Begin Source File
 
 SOURCE=.\genil.c
+DEP_CPP_GENIL=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -571,6 +1047,18 @@ SOURCE=.\genil.c
 # Begin Source File
 
 SOURCE=.\genlil.c
+DEP_CPP_GENLI=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -582,6 +1070,15 @@ SOURCE=.\genlil.c
 # Begin Source File
 
 SOURCE=.\genline.c
+DEP_CPP_GENLIN=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\lftype.h"\
+	".\mathmac.h"\
+	".\plytyp.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -593,6 +1090,15 @@ SOURCE=.\genline.c
 # Begin Source File
 
 SOURCE=.\genlm.c
+DEP_CPP_GENLM=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lglog.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\tftype.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -604,6 +1110,18 @@ SOURCE=.\genlm.c
 # Begin Source File
 
 SOURCE=.\genply.c
+DEP_CPP_GENPL=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -615,6 +1133,19 @@ SOURCE=.\genply.c
 # Begin Source File
 
 SOURCE=.\genrast.c
+DEP_CPP_GENRA=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lglog.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\mathmac.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\trirast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -626,6 +1157,16 @@ SOURCE=.\genrast.c
 # Begin Source File
 
 SOURCE=.\genrsds.c
+DEP_CPP_GENRS=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\grscale.h"\
+	".\icanvas.h"\
+	".\sftype.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -637,6 +1178,17 @@ SOURCE=.\genrsds.c
 # Begin Source File
 
 SOURCE=.\genrsdtm.c
+DEP_CPP_GENRSD=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -648,6 +1200,17 @@ SOURCE=.\genrsdtm.c
 # Begin Source File
 
 SOURCE=.\gens.c
+DEP_CPP_GENS_=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\sftype.h"\
+	
+NODEP_CPP_GENS_=\
+	"..\lg\dbgmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -659,6 +1222,17 @@ SOURCE=.\gens.c
 # Begin Source File
 
 SOURCE=.\gensil.c
+DEP_CPP_GENSI=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -670,6 +1244,18 @@ SOURCE=.\gensil.c
 # Begin Source File
 
 SOURCE=.\gensply.c
+DEP_CPP_GENSP=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -681,6 +1267,19 @@ SOURCE=.\gensply.c
 # Begin Source File
 
 SOURCE=.\golftmap.c
+DEP_CPP_GOLFT=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\plyshell.h"\
+	".\trirast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -692,6 +1291,24 @@ SOURCE=.\golftmap.c
 # Begin Source File
 
 SOURCE=.\grtm.c
+DEP_CPP_GRTM_=\
+	"..\..\h\grspoint.h"\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\tmpalloc.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\buffer.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\g2tm.h"\
+	".\grtm.h"\
+	".\plytyp.h"\
+	
+NODEP_CPP_GRTM_=\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -703,6 +1320,15 @@ SOURCE=.\grtm.c
 # Begin Source File
 
 SOURCE=.\grwater.c
+DEP_CPP_GRWAT=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\grtm.h"\
+	".\plytyp.h"\
+	".\water.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -714,6 +1340,19 @@ SOURCE=.\grwater.c
 # Begin Source File
 
 SOURCE=.\init.c
+DEP_CPP_INIT_=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\g2makewr.h"\
+	".\setdrv.h"\
+	
+NODEP_CPP_INIT_=\
+	"..\lg\dbgmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -725,6 +1364,23 @@ SOURCE=.\init.c
 # Begin Source File
 
 SOURCE=.\lh816.c
+DEP_CPP_LH816=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2clip.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\g2tm.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\plytyp.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	".\trirast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -736,6 +1392,18 @@ SOURCE=.\lh816.c
 # Begin Source File
 
 SOURCE=.\lht816.c
+DEP_CPP_LHT81=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -747,6 +1415,28 @@ SOURCE=.\lht816.c
 # Begin Source File
 
 SOURCE=.\lmap.c
+DEP_CPP_LMAP_=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\tmpalloc.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	"..\mprintf\mprintf.h"\
+	".\buffer.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\plytyp.h"\
+	".\raster.h"\
+	".\tmapd.h"\
+	".\tmapf.h"\
+	".\tmapfcn.h"\
+	".\tmaps.h"\
+	
+NODEP_CPP_LMAP_=\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -758,6 +1448,23 @@ SOURCE=.\lmap.c
 # Begin Source File
 
 SOURCE=.\lo816.c
+DEP_CPP_LO816=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2clip.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\g2tm.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\plytyp.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	".\trirast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -769,6 +1476,23 @@ SOURCE=.\lo816.c
 # Begin Source File
 
 SOURCE=.\lo88.c
+DEP_CPP_LO88_=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2clip.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\g2tm.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\plytyp.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	".\trirast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -780,6 +1504,20 @@ SOURCE=.\lo88.c
 # Begin Source File
 
 SOURCE=.\o88.c
+DEP_CPP_O88_C=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\g2tm.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -791,6 +1529,27 @@ SOURCE=.\o88.c
 # Begin Source File
 
 SOURCE=.\permap.c
+DEP_CPP_PERMA=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\tmpalloc.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\buffer.h"\
+	".\g2clip.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\g2tm.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\plytyp.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
+NODEP_CPP_PERMA=\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -802,6 +1561,21 @@ SOURCE=.\permap.c
 # Begin Source File
 
 SOURCE=.\plyshell.c
+DEP_CPP_PLYSH=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\tmpalloc.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\buffer.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	
+NODEP_CPP_PLYSH=\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -813,6 +1587,14 @@ SOURCE=.\plyshell.c
 # Begin Source File
 
 SOURCE=.\point.c
+DEP_CPP_POINT=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\point.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -824,6 +1606,15 @@ SOURCE=.\point.c
 # Begin Source File
 
 SOURCE=.\pt_duv.c
+DEP_CPP_PT_DU=\
+	"..\fix\fix.h"\
+	"..\matrix\matrix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	"..\prof\prof.h"\
+	"..\timer\timer.h"\
+	".\profile.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -835,6 +1626,17 @@ SOURCE=.\pt_duv.c
 # Begin Source File
 
 SOURCE=.\pt_grad.c
+DEP_CPP_PT_GR=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -846,6 +1648,31 @@ SOURCE=.\pt_grad.c
 # Begin Source File
 
 SOURCE=.\pt_main.c
+DEP_CPP_PT_MA=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\pt.h"\
+	".\pt_asm.h"\
+	".\ptmap.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
+NODEP_CPP_PT_MA=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -857,6 +1684,34 @@ SOURCE=.\pt_main.c
 # Begin Source File
 
 SOURCE=.\pt_map.c
+DEP_CPP_PT_MAP=\
+	"..\..\h\grspoint.h"\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	"..\mprintf\mprintf.h"\
+	"..\prof\prof.h"\
+	"..\r3d\r3ds.h"\
+	"..\timer\timer.h"\
+	".\g2spoint.h"\
+	".\profile.h"\
+	".\ptmap.h"\
+	".\ptmapper.h"\
+	".\recip.h"\
+	".\scancvt.h"\
+	
+NODEP_CPP_PT_MAP=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -868,6 +1723,18 @@ SOURCE=.\pt_map.c
 # Begin Source File
 
 SOURCE=.\r88.c
+DEP_CPP_R88_C=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -879,6 +1746,22 @@ SOURCE=.\r88.c
 # Begin Source File
 
 SOURCE=.\rastel.c
+DEP_CPP_RASTE=\
+	"..\..\h\fixreal.h"\
+	"..\dev2d\dev2d.h"\
+	"..\fix\altfix.h"\
+	"..\fix\fix.h"\
+	"..\lg\tmpalloc.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\buffer.h"\
+	".\plytyp.h"\
+	".\raster.h"\
+	
+NODEP_CPP_RASTE=\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -890,6 +1773,20 @@ SOURCE=.\rastel.c
 # Begin Source File
 
 SOURCE=.\raster.c
+DEP_CPP_RASTER=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\tmpalloc.h"\
+	"..\lgalloc\memall.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\buffer.h"\
+	".\plytyp.h"\
+	".\raster.h"\
+	
+NODEP_CPP_RASTER=\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -901,6 +1798,22 @@ SOURCE=.\raster.c
 # Begin Source File
 
 SOURCE=.\scshell.c
+DEP_CPP_SCSHE=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	".\trirast.h"\
+	
+NODEP_CPP_SCSHE=\
+	"..\lg\dbgmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -912,6 +1825,9 @@ SOURCE=.\scshell.c
 # Begin Source File
 
 SOURCE=.\setdrv.c
+DEP_CPP_SETDR=\
+	".\g2d.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -923,6 +1839,21 @@ SOURCE=.\setdrv.c
 # Begin Source File
 
 SOURCE=.\shadhack.c
+DEP_CPP_SHADH=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\plyshell.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	".\trirast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -934,6 +1865,19 @@ SOURCE=.\shadhack.c
 # Begin Source File
 
 SOURCE=.\shadtmap.c
+DEP_CPP_SHADT=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\plyshell.h"\
+	".\trirast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -945,6 +1889,12 @@ SOURCE=.\shadtmap.c
 # Begin Source File
 
 SOURCE=.\svgainit.c
+DEP_CPP_SVGAI=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -956,6 +1906,22 @@ SOURCE=.\svgainit.c
 # Begin Source File
 
 SOURCE=.\t816oc.c
+DEP_CPP_T816O=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\g2tm.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\plyshell.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	".\trirast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -967,6 +1933,22 @@ SOURCE=.\t816oc.c
 # Begin Source File
 
 SOURCE=.\t88oc.c
+DEP_CPP_T88OC=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\g2tm.h"\
+	".\genrast.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\plyshell.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	".\trirast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -978,6 +1960,19 @@ SOURCE=.\t88oc.c
 # Begin Source File
 
 SOURCE=.\tf.c
+DEP_CPP_TF_C9c=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\plyshell.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	".\trirast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -989,6 +1984,17 @@ SOURCE=.\tf.c
 # Begin Source File
 
 SOURCE=.\tmapd.c
+DEP_CPP_TMAPD=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -1000,6 +2006,23 @@ SOURCE=.\tmapd.c
 # Begin Source File
 
 SOURCE=.\tmsetup.c
+DEP_CPP_TMSET=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2clip.h"\
+	".\g2d.h"\
+	".\g2spoint.h"\
+	".\g2tm.h"\
+	".\icanvas.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\plytyp.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	".\trirast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -1011,6 +2034,14 @@ SOURCE=.\tmsetup.c
 # Begin Source File
 
 SOURCE=.\trifan.c
+DEP_CPP_TRIFA=\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	".\plytyp.h"\
+	
+NODEP_CPP_TRIFA=\
+	"..\lg\dbgmacro.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -1022,6 +2053,18 @@ SOURCE=.\trifan.c
 # Begin Source File
 
 SOURCE=.\trigrad.c
+DEP_CPP_TRIGR=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	".\tmapd.h"\
+	".\tmaps.h"\
+	".\trirast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 
@@ -1033,6 +2076,15 @@ SOURCE=.\trigrad.c
 # Begin Source File
 
 SOURCE=.\trirast.c
+DEP_CPP_TRIRA=\
+	"..\dev2d\dev2d.h"\
+	"..\fix\fix.h"\
+	"..\matrix\matrixs.h"\
+	"..\matrix\mxang.h"\
+	".\g2spoint.h"\
+	".\plyparam.h"\
+	".\plyrast.h"\
+	
 
 !IF  "$(CFG)" == "g2 - Win32 Release"
 

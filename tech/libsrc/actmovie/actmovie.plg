@@ -6,9 +6,9 @@
 --------------------Configuration: actmovie - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPABDD.tmp" with contents
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP7E8D.tmp" with contents
 [
-/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/actmovie.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "SHIP" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/actmovie.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
 "C:\Sources\DarkEngine\prj\tech\libsrc\actmovie\actmovie.cpp"
 "C:\Sources\DarkEngine\prj\tech\libsrc\actmovie\amalloc.cpp"
 "C:\Sources\DarkEngine\prj\tech\libsrc\actmovie\amguids.cpp"
@@ -16,8 +16,8 @@ Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPABDD.tmp" with 
 "C:\Sources\DarkEngine\prj\tech\libsrc\actmovie\imutil.cpp"
 "C:\Sources\DarkEngine\prj\tech\libsrc\actmovie\mtype.cpp"
 ]
-Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSPABDD.tmp" 
-Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPABED.tmp" with contents
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP7E8D.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP7E8E.tmp" with contents
 [
 /nologo /out:"..\_Libs\Release\actmovie.lib" 
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\actmovie.obj
@@ -27,26 +27,26 @@ Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPABED.tmp" with 
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\imutil.obj
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\mtype.obj
 ]
-Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSPABED.tmp"
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP7E8E.tmp"
 <h3>Output Window</h3>
 Compiling...
 actmovie.cpp
 C:\Sources\DarkEngine\prj\tech\libsrc\actmovie\actmovie.cpp(350) : warning C4390: ';' : empty controlled statement found; is this the intent?
 C:\Sources\DarkEngine\prj\tech\libsrc\actmovie\actmovie.cpp(535) : warning C4101: 'msg' : unreferenced local variable
-C:\Sources\DarkEngine\prj\tech\libsrc\actmovie\actmovie.cpp(925) : error C2451: conditional expression of type 'class cAutoIPtr<struct IDisplayDevice>' is illegal
-        Ambiguous user-defined-conversion
+C:\Sources\DarkEngine\prj\tech\libsrc\actmovie\actmovie.cpp(867) : warning C4101: 'bm' : unreferenced local variable
+C:\Sources\DarkEngine\prj\tech\libsrc\actmovie\actmovie.cpp(884) : warning C4101: 'ptr' : unreferenced local variable
 amalloc.cpp
 C:\Sources\DarkEngine\prj\tech\libsrc\actmovie\amalloc.cpp(872) : warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
 amguids.cpp
 getlgvid.cpp
 imutil.cpp
 mtype.cpp
-Error executing cl.exe.
+Creating library...
 
 
 
 <h3>Results</h3>
-actmovie.lib - 1 error(s), 3 warning(s)
+actmovie.lib - 0 error(s), 5 warning(s)
 </pre>
 </body>
 </html>

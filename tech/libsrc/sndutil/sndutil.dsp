@@ -41,7 +41,7 @@ RSC=rc.exe
 # PROP Intermediate_Dir "..\_Bins\Release"
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /W3 /GX /O2 /D "NDEBUG" /D "_MBCS" /D "_LIB" /YX /FD /c
-# ADD CPP /nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR /YX"..\..\types.h" /FI "..\..\h\types.h" /c
+# ADD CPP /nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "SHIP" /FR /YX"..\..\types.h" /FI "..\..\h\types.h" /c
 # SUBTRACT CPP /X /u
 # ADD BASE RSC /l 0x816 /d "NDEBUG"
 # ADD RSC /l 0x809 /d "NDEBUG"
@@ -65,7 +65,7 @@ LIB32=link.exe -lib
 # PROP Intermediate_Dir "..\_Bins\Debug"
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_WIN32" /D "_WINDOWS" /D "_DEBUG" /D "_MBCS" /D "_LIB" /YX /FD /GZ /c
-# ADD CPP /nologo /Zp1 /ML /W3 /Gm /GX /ZI /Od /I ".\\" /I "..\..\h" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lg" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I ".\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_WINDOWS" /YX"..\..\types.h" /FD /FI "..\..\h\types.h" /GZ /c
+# ADD CPP /nologo /Zp1 /ML /W3 /Gm /GX /ZI /Od /I ".\\" /I "..\..\h" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lg" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I ".\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_WINDOWS" /YX"..\..\types.h" /FD /FI /GZ "..\..\h\types.h" /c
 # ADD BASE RSC /l 0x816 /d "_DEBUG"
 # ADD RSC /l 0x816 /d "_DEBUG"
 BSC32=bscmake.exe
@@ -87,6 +87,33 @@ LIB32=link.exe -lib
 # Begin Source File
 
 SOURCE=.\foneshot.c
+DEP_CPP_FONES=\
+	"..\..\h\prikind.h"\
+	"..\comtools\comtools.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\mprintf\mprintf.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\sound\lgsndid.h"\
+	"..\sound\lgsound.h"\
+	"..\sound\sndfmt.h"\
+	"..\sound\timelog.h"\
+	"..\timer\timer.h"\
+	".\oneshot.h"\
+	".\sndutil.h"\
+	
+NODEP_CPP_FONES=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "sndutil - Win32 Release"
 
@@ -98,6 +125,33 @@ SOURCE=.\foneshot.c
 # Begin Source File
 
 SOURCE=.\fsplicer.c
+DEP_CPP_FSPLI=\
+	"..\..\h\prikind.h"\
+	"..\comtools\comtools.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\mprintf\mprintf.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\sound\lgsndid.h"\
+	"..\sound\lgsound.h"\
+	"..\sound\sndfmt.h"\
+	"..\sound\timelog.h"\
+	"..\timer\timer.h"\
+	".\sndutil.h"\
+	".\splicer.h"\
+	
+NODEP_CPP_FSPLI=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "sndutil - Win32 Release"
 
@@ -109,6 +163,33 @@ SOURCE=.\fsplicer.c
 # Begin Source File
 
 SOURCE=.\fstremer.c
+DEP_CPP_FSTRE=\
+	"..\..\h\prikind.h"\
+	"..\comtools\comtools.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\mprintf\mprintf.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\sound\lgsndid.h"\
+	"..\sound\lgsound.h"\
+	"..\sound\sndfmt.h"\
+	"..\sound\timelog.h"\
+	"..\timer\timer.h"\
+	".\sndutil.h"\
+	".\streamer.h"\
+	
+NODEP_CPP_FSTRE=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "sndutil - Win32 Release"
 
@@ -120,6 +201,9 @@ SOURCE=.\fstremer.c
 # Begin Source File
 
 SOURCE=.\imaadpcm.cpp
+DEP_CPP_IMAAD=\
+	".\imaadpcm.h"\
+	
 
 !IF  "$(CFG)" == "sndutil - Win32 Release"
 
@@ -131,6 +215,33 @@ SOURCE=.\imaadpcm.cpp
 # Begin Source File
 
 SOURCE=.\mstremer.c
+DEP_CPP_MSTRE=\
+	"..\..\h\prikind.h"\
+	"..\comtools\comtools.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\mprintf\mprintf.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\sound\lgsndid.h"\
+	"..\sound\lgsound.h"\
+	"..\sound\sndfmt.h"\
+	"..\sound\timelog.h"\
+	"..\timer\timer.h"\
+	".\sndutil.h"\
+	".\streamer.h"\
+	
+NODEP_CPP_MSTRE=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "sndutil - Win32 Release"
 
@@ -142,6 +253,35 @@ SOURCE=.\mstremer.c
 # Begin Source File
 
 SOURCE=.\onemain.c
+DEP_CPP_ONEMA=\
+	"..\..\h\prikind.h"\
+	"..\compapis\appagg.h"\
+	"..\compapis\appapi.h"\
+	"..\compapis\pumpenum.h"\
+	"..\compapis\wappapi.h"\
+	"..\compapis\wappguid.h"\
+	"..\comtools\comtools.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\mprintf\mprintf.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\sound\lgsndid.h"\
+	"..\sound\lgsound.h"\
+	"..\sound\sndfmt.h"\
+	".\sndutil.h"\
+	".\utilmain.h"\
+	
+NODEP_CPP_ONEMA=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "sndutil - Win32 Release"
 
@@ -153,6 +293,33 @@ SOURCE=.\onemain.c
 # Begin Source File
 
 SOURCE=.\oneshot.c
+DEP_CPP_ONESH=\
+	"..\..\h\prikind.h"\
+	"..\comtools\comtools.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\mprintf\mprintf.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\sound\lgsndid.h"\
+	"..\sound\lgsound.h"\
+	"..\sound\sndfmt.h"\
+	"..\sound\timelog.h"\
+	"..\timer\timer.h"\
+	".\oneshot.h"\
+	".\sndutil.h"\
+	
+NODEP_CPP_ONESH=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "sndutil - Win32 Release"
 
@@ -164,6 +331,33 @@ SOURCE=.\oneshot.c
 # Begin Source File
 
 SOURCE=.\roneshot.c
+DEP_CPP_RONES=\
+	"..\..\h\prikind.h"\
+	"..\comtools\comtools.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\mprintf\mprintf.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\sound\lgsndid.h"\
+	"..\sound\lgsound.h"\
+	"..\sound\sndfmt.h"\
+	"..\sound\timelog.h"\
+	"..\timer\timer.h"\
+	".\oneshot.h"\
+	".\sndutil.h"\
+	
+NODEP_CPP_RONES=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "sndutil - Win32 Release"
 
@@ -175,6 +369,33 @@ SOURCE=.\roneshot.c
 # Begin Source File
 
 SOURCE=.\rsplicer.c
+DEP_CPP_RSPLI=\
+	"..\..\h\prikind.h"\
+	"..\comtools\comtools.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\mprintf\mprintf.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\sound\lgsndid.h"\
+	"..\sound\lgsound.h"\
+	"..\sound\sndfmt.h"\
+	"..\sound\timelog.h"\
+	"..\timer\timer.h"\
+	".\sndutil.h"\
+	".\splicer.h"\
+	
+NODEP_CPP_RSPLI=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "sndutil - Win32 Release"
 
@@ -186,6 +407,33 @@ SOURCE=.\rsplicer.c
 # Begin Source File
 
 SOURCE=.\rstremer.c
+DEP_CPP_RSTRE=\
+	"..\..\h\prikind.h"\
+	"..\comtools\comtools.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\mprintf\mprintf.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\sound\lgsndid.h"\
+	"..\sound\lgsound.h"\
+	"..\sound\sndfmt.h"\
+	"..\sound\timelog.h"\
+	"..\timer\timer.h"\
+	".\sndutil.h"\
+	".\streamer.h"\
+	
+NODEP_CPP_RSTRE=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "sndutil - Win32 Release"
 
@@ -197,6 +445,31 @@ SOURCE=.\rstremer.c
 # Begin Source File
 
 SOURCE=.\sndrezst.c
+DEP_CPP_SNDRE=\
+	"..\..\h\prikind.h"\
+	"..\comtools\comtools.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\sound\lgsndid.h"\
+	"..\sound\lgsound.h"\
+	"..\sound\sndfmt.h"\
+	"..\sound\timelog.h"\
+	"..\timer\timer.h"\
+	".\sndrezst.h"\
+	
+NODEP_CPP_SNDRE=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "sndutil - Win32 Release"
 
@@ -208,6 +481,35 @@ SOURCE=.\sndrezst.c
 # Begin Source File
 
 SOURCE=.\splcmain.c
+DEP_CPP_SPLCM=\
+	"..\..\h\prikind.h"\
+	"..\compapis\appagg.h"\
+	"..\compapis\appapi.h"\
+	"..\compapis\pumpenum.h"\
+	"..\compapis\wappapi.h"\
+	"..\compapis\wappguid.h"\
+	"..\comtools\comtools.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\mprintf\mprintf.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\sound\lgsndid.h"\
+	"..\sound\lgsound.h"\
+	"..\sound\sndfmt.h"\
+	".\sndutil.h"\
+	".\utilmain.h"\
+	
+NODEP_CPP_SPLCM=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "sndutil - Win32 Release"
 
@@ -219,6 +521,33 @@ SOURCE=.\splcmain.c
 # Begin Source File
 
 SOURCE=.\splicer.c
+DEP_CPP_SPLIC=\
+	"..\..\h\prikind.h"\
+	"..\comtools\comtools.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\mprintf\mprintf.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\sound\lgsndid.h"\
+	"..\sound\lgsound.h"\
+	"..\sound\sndfmt.h"\
+	"..\sound\timelog.h"\
+	"..\timer\timer.h"\
+	".\sndutil.h"\
+	".\splicer.h"\
+	
+NODEP_CPP_SPLIC=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "sndutil - Win32 Release"
 
@@ -230,6 +559,34 @@ SOURCE=.\splicer.c
 # Begin Source File
 
 SOURCE=.\streamer.c
+DEP_CPP_STREA=\
+	"..\..\h\prikind.h"\
+	"..\comtools\comtools.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\mprintf\mprintf.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\sound\lgsndid.h"\
+	"..\sound\lgsound.h"\
+	"..\sound\sndfmt.h"\
+	"..\sound\timelog.h"\
+	"..\timer\timer.h"\
+	".\imaadpcm.h"\
+	".\sndutil.h"\
+	".\streamer.h"\
+	
+NODEP_CPP_STREA=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "sndutil - Win32 Release"
 
@@ -241,6 +598,38 @@ SOURCE=.\streamer.c
 # Begin Source File
 
 SOURCE=.\strmmain.c
+DEP_CPP_STRMM=\
+	"..\..\h\prikind.h"\
+	"..\compapis\appagg.h"\
+	"..\compapis\appapi.h"\
+	"..\compapis\pumpenum.h"\
+	"..\compapis\wappapi.h"\
+	"..\compapis\wappguid.h"\
+	"..\comtools\comtools.h"\
+	"..\fix\fix.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lgdatapath.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\mprintf\mprintf.h"\
+	"..\res\res.h"\
+	"..\res\restypes.h"\
+	"..\sound\lgsndid.h"\
+	"..\sound\lgsound.h"\
+	"..\sound\sndfmt.h"\
+	"..\sound\timelog.h"\
+	"..\timer\timer.h"\
+	".\sndutil.h"\
+	".\utilmain.h"\
+	
+NODEP_CPP_STRMM=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "sndutil - Win32 Release"
 
@@ -252,6 +641,24 @@ SOURCE=.\strmmain.c
 # Begin Source File
 
 SOURCE=.\utilmain.c
+DEP_CPP_UTILM=\
+	"..\comtools\comtools.h"\
+	"..\lg\dbg.h"\
+	"..\lg\lg.h"\
+	"..\lg\lgalt.h"\
+	"..\lg\lgassert.h"\
+	"..\lg\lglocmsg.h"\
+	"..\lg\lglog.h"\
+	"..\lgalloc\memall.h"\
+	"..\mprintf\mprintf.h"\
+	"..\sound\lgsndid.h"\
+	"..\sound\lgsound.h"\
+	".\utilmain.h"\
+	
+NODEP_CPP_UTILM=\
+	"..\lg\dbgmacro.h"\
+	"..\lgalloc\memmacro.h"\
+	
 
 !IF  "$(CFG)" == "sndutil - Win32 Release"
 

@@ -259,7 +259,10 @@ STDMETHODIMP_(void) cWinGameShell::PumpEvents(int /*fPumpFlags*/)
             SetQuitting(TRUE);
 
             AutoAppIPtr(Application);
-            if (pApplication)
+
+			//XXX Chaos
+			//if (pApplication)
+            if (pApplication = 0)
                 pApplication->QueryQuit();
 
             // If we reach here, we didn't quit...
@@ -866,7 +869,9 @@ long cWinGameShell::WndProc(UINT msg, WPARAM wParam, LPARAM lParam)
                 default:
                 {
                     AutoAppIPtr(Application);
-                    if (pApplication)
+					//XXX Chaos
+                    //if (pApplication)
+					if (pApplication = 0)
                         pApplication->AppCommand(wParam);
                 }
             }

@@ -6,9 +6,9 @@
 --------------------Configuration: lgalloc - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP6E4A.tmp" with contents
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPB410.tmp" with contents
 [
-/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/lgalloc.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "SHIP" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/lgalloc.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
 "C:\Sources\DarkEngine\prj\tech\libsrc\lgalloc\allcguid.cpp"
 "C:\Sources\DarkEngine\prj\tech\libsrc\lgalloc\dbgalloc.cpp"
 "C:\Sources\DarkEngine\prj\tech\libsrc\lgalloc\heap.cpp"
@@ -25,8 +25,8 @@ Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP6E4A.tmp" with 
 "C:\Sources\DarkEngine\prj\tech\libsrc\lgalloc\primallc.cpp"
 "C:\Sources\DarkEngine\prj\tech\libsrc\lgalloc\stdalloc.cpp"
 ]
-Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP6E4A.tmp" 
-Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP6E4B.tmp" with contents
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSPB410.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPB411.tmp" with contents
 [
 /nologo /out:"..\_Libs\Release\lgalloc.lib" 
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\allcguid.obj
@@ -45,12 +45,11 @@ Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP6E4B.tmp" with 
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\primallc.obj
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\stdalloc.obj
 ]
-Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP6E4B.tmp"
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSPB411.tmp"
 <h3>Output Window</h3>
 Compiling...
 allcguid.cpp
 dbgalloc.cpp
-C:\Sources\DarkEngine\prj\tech\libsrc\lgalloc\dbgalloc.cpp(31) : warning C4073: initializers put in library initialization area
 heap.cpp
 C:\Sources\DarkEngine\prj\tech\libsrc\lgalloc\heap.cpp(405) : warning C4291: 'void *__cdecl operator new(unsigned int,void *)' : no matching operator delete found; memory will not be freed if initialization throws an exception
         C:\Sources\DarkEngine\prj\tech\libsrc\lgalloc\heap.cpp(110) : see declaration of 'new'
@@ -61,7 +60,6 @@ membase.cpp
 memcore.cpp
 memtest.cpp
 memtimer.cpp
-C:\Sources\DarkEngine\prj\tech\libsrc\lgalloc\memtimer.cpp(21) : warning C4073: initializers put in library initialization area
 multpool.cpp
 C:\Sources\DarkEngine\prj\tech\libsrc\lgalloc\multpool.cpp(280) : warning C4291: 'void *__cdecl operator new(unsigned int,class cPoolAllocator *)' : no matching operator delete found; memory will not be freed if initialization throws an exception
         C:\Sources\DarkEngine\prj\tech\libsrc\lgalloc\multpool.cpp(35) : see declaration of 'new'
@@ -84,14 +82,11 @@ primallc.cpp
 stdalloc.cpp
 Creating library...
 memtest.obj : warning LNK4006: _LGAllocOverride already defined in nonover.obj; second definition ignored
-memtest.obj : warning LNK4006: _malloc_db already defined in nonover.obj; second definition ignored
-memtest.obj : warning LNK4006: _free_db already defined in nonover.obj; second definition ignored
-memtest.obj : warning LNK4006: _realloc_db already defined in nonover.obj; second definition ignored
 
 
 
 <h3>Results</h3>
-lgalloc.lib - 0 error(s), 15 warning(s)
+lgalloc.lib - 0 error(s), 10 warning(s)
 </pre>
 </body>
 </html>

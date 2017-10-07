@@ -6,9 +6,9 @@
 --------------------Configuration: lg - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP4AF0.tmp" with contents
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP8A9B.tmp" with contents
 [
-/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/lg.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "SHIP" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/lg.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
 "C:\Sources\DarkEngine\prj\tech\libsrc\lg\appagg.cpp"
 "C:\Sources\DarkEngine\prj\tech\libsrc\lg\breakkey.cpp"
 "C:\Sources\DarkEngine\prj\tech\libsrc\lg\bugtrak.c"
@@ -35,8 +35,8 @@ Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP4AF0.tmp" with 
 "C:\Sources\DarkEngine\prj\tech\libsrc\lg\timings.cpp"
 "C:\Sources\DarkEngine\prj\tech\libsrc\lg\tmpalloc.c"
 ]
-Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP4AF0.tmp" 
-Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP4AF1.tmp" with contents
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP8A9B.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP8A9C.tmp" with contents
 [
 /nologo /out:"..\_Libs\Release\lg.lib" 
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\appagg.obj
@@ -65,7 +65,7 @@ Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP4AF1.tmp" with 
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\timings.obj
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\tmpalloc.obj
 ]
-Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP4AF1.tmp"
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP8A9C.tmp"
 <h3>Output Window</h3>
 Compiling...
 appagg.cpp
@@ -98,7 +98,7 @@ thrdtool.cpp
 timings.cpp
 tmpalloc.c
 Creating library...
-Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP6224.tmp" with contents
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPA1A0.tmp" with contents
 [
 /nologo /o"..\_Libs\Release/lg.bsc" 
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\appagg.sbr
@@ -126,7 +126,7 @@ Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP6224.tmp" with 
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\thrdtool.sbr
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\timings.sbr
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\tmpalloc.sbr]
-Creating command line "bscmake.exe @C:\Users\Infernus\AppData\Local\Temp\RSP6224.tmp"
+Creating command line "bscmake.exe @C:\Users\Infernus\AppData\Local\Temp\RSPA1A0.tmp"
 Creating browse info file...
 <h3>Output Window</h3>
 

@@ -6,9 +6,9 @@
 --------------------Configuration: res - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPE72D.tmp" with contents
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPDB13.tmp" with contents
 [
-/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/res.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "SHIP" /FR"..\_Bins\Release/" /Fp"..\_Bins\Release/res.pch" /YX"..\..\types.h" /Fo"..\_Bins\Release/" /FI "..\..\h\types.h" /c 
 "C:\Sources\DarkEngine\prj\tech\libsrc\res\lzw.cpp"
 "C:\Sources\DarkEngine\prj\tech\libsrc\res\lzwfd2bf.cpp"
 "C:\Sources\DarkEngine\prj\tech\libsrc\res\pkzip.cpp"
@@ -16,7 +16,6 @@ Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPE72D.tmp" with 
 "C:\Sources\DarkEngine\prj\tech\libsrc\res\res.cpp"
 "C:\Sources\DarkEngine\prj\tech\libsrc\res\resacc.cpp"
 "C:\Sources\DarkEngine\prj\tech\libsrc\res\resagg.c"
-"C:\Sources\DarkEngine\prj\tech\libsrc\res\resarq.cpp"
 "C:\Sources\DarkEngine\prj\tech\libsrc\res\resbuild.cpp"
 "C:\Sources\DarkEngine\prj\tech\libsrc\res\rescache.cpp"
 "C:\Sources\DarkEngine\prj\tech\libsrc\res\rescback.cpp"
@@ -31,8 +30,8 @@ Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPE72D.tmp" with 
 "C:\Sources\DarkEngine\prj\tech\libsrc\res\resthred.cpp"
 "C:\Sources\DarkEngine\prj\tech\libsrc\res\restypes.cpp"
 ]
-Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSPE72D.tmp" 
-Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPE72E.tmp" with contents
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSPDB13.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPDB14.tmp" with contents
 [
 /nologo /out:"..\_Libs\Release\res.lib" 
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\lzw.obj
@@ -57,7 +56,7 @@ Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPE72E.tmp" with 
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\resthred.obj
 \Sources\DarkEngine\prj\tech\libsrc\_Bins\Release\restypes.obj
 ]
-Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSPE72E.tmp"
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSPDB14.tmp"
 <h3>Output Window</h3>
 Compiling...
 lzw.cpp
@@ -68,9 +67,6 @@ refacc.cpp
 res.cpp
 resacc.cpp
 resagg.c
-resarq.cpp
-C:\Sources\DarkEngine\prj\tech\libsrc\res\resarq.cpp(407) : warning C4291: 'void *__cdecl cResARQFulfiller::sResRequest::operator new(unsigned int)' : no matching operator delete found; memory will not be freed if initialization throws an exception
-        .\resarq.h(120) : see declaration of 'new'
 resbuild.cpp
 C:\Sources\DarkEngine\prj\tech\libsrc\res\resbuild.cpp(246) : warning C4390: ';' : empty controlled statement found; is this the intent?
 rescache.cpp
@@ -94,7 +90,7 @@ Creating library...
 
 
 <h3>Results</h3>
-res.lib - 0 error(s), 6 warning(s)
+res.lib - 0 error(s), 5 warning(s)
 </pre>
 </body>
 </html>
