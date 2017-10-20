@@ -1,8 +1,10 @@
-#ifndef __LOOPDISP_H
-#define __LOOPDISP_H
+//Empty File
+//
+#ifndef LOOPDISP_H
+#define LOOPDISP_H
 
 
-#endif	//__LOOPDISP_H
 
 
 
+#endif	/* !LOOPDISP_H */

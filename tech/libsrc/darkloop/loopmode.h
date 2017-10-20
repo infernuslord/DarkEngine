@@ -1,6 +1,10 @@
-#ifndef __LOOPMODE_H
-#define __LOOPMODE_H
+//Empty File
+//
+#ifndef LOOPMODE_H
+#define LOOPMODE_H
 
 
-#endif	//__LOOPMODE_H
 
+
+
+#endif	/* !LOOPMODE_H */

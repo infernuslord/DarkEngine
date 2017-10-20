@@ -1,6 +1,10 @@
-#ifndef __LOOPQUE_H
-#define __LOOPQUE_H
+//Empty File
+//
+#ifndef LOOPQUE_H
+#define LOOPQUE_H
 
 
-#endif	//__LOOPQUE_H
 
+
+
+#endif	/* !LOOPQUE_H */
